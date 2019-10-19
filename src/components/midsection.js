@@ -100,40 +100,38 @@ const Midsection = () => (
 							<div className="column is-5">
 							<Link to="/proj2/">
 								<Box className="box">
-									<div className="tile is-ancestor">
-									<div className="tile is-parent">
-								        <article className="tile is-child box is-white">
-								          <figure className="image is-centered">
-							            	<img src={thesis} alt="thesis"/>
-								          </figure>
-								         <br></br>
-								          <p className="title is-size-4">Preventing Deceptive Phishing</p>
-								          <p className="subtitle">Undergraduate Honors Thesis, UMass</p>
-								        </article>
-								      </div>
-								      </div>	
-			     				</Box>
+								<div class="card">
+									<div class="card-image">
+								    <figure class="image is-centered">
+								    	<img src={thesis} alt="thesis"/>
+								    </figure>
+								  	</div>
+								<div class="content">
+						    		<h2>Avoiding Deceptive Phishing</h2>
+								    <p className="heading is-size-7"><strong>UX Research, UX Design</strong></p>
+								    <p>Assisting people in avoiding and learning how to spot email phishing scams.</p>
+						      </div>
+						      </div>
+						      </Box>
 			     			</Link>
-					
 							</div>	
-
 
 							<div className="column is-5">
 							<Link to="/proj5/">
 								<Box className="box">
-									<div className="tile is-ancestor">
-									<div className="tile is-parent">
-								        <article className="tile is-child box is-white">
-								          <figure className="image is-centered">
-							            	<img src={mastree} alt="mastree"/>
-								          </figure>
-								         <br></br>
-								          <p className="title is-size-4">Mastree</p>
-								          <p className="subtitle">Software Entreprenuership Startup, UMass</p>
-								        </article>
-								      </div>
-								      </div>	
-			     				</Box>
+								<div class="card">
+									<div class="card-image">
+								    <figure class="image is-centered">
+								    	<img src={mastree} alt="mastree"/>
+								    </figure>
+								  	</div>
+								<div class="content">
+						    		<h2>Mastree</h2>
+								    <p className="heading is-size-7"><strong>Graphic Design, UX Design</strong></p>
+								    <p>Helping people accomplish foundational skills and gain basic technical knowledge on a simple platform.</p>
+						      </div>
+						      </div>
+						      </Box>
 			     			</Link>
 					
 							</div>
@@ -218,18 +216,6 @@ const Midsection = () => (
 							</Link>
 							</div>
 							</div>	
-						<div className="column is-6 has-text-white">
-							<div>
-								&nbsp;
-							</div>
-							</div>
-					
-
-
-
-
-
-
 
 				</div>
 				</ScrollAnimation>
