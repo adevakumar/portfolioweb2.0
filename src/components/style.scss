@@ -4,7 +4,7 @@
 // Importing Bulma from node_modules
 @import '~bulma/bulma.sass';
 
-@import url('https://fonts.googleapis.com/css?family=Lora:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 
 .gradientBg {
 	display: flex;
@@ -17,12 +17,12 @@ padding: 50px;
 }
 
 h1 {
-	font-family: 'Lora', serif; 
+	font-family: 'Comfortaa', cursive; 
 	font-size: 44px;
 }
 
 #navbarMenuHeroA {
-	background-color: #f9f1ed;
+	background-color: #ffffff;
 }
 
 #projectpic {
@@ -51,6 +51,7 @@ h1 {
 
 .navbar-item:hover {
     font-weight: bold;
+	text-color: black;
 }
 
 .footer {
@@ -67,6 +68,16 @@ h1 {
 	}
 	
 }
+h3 {
+	text-align: center;
+}
+
+.menu_sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 9%;
+}
+
 
 a {
 	border-bottom: none;
@@ -78,13 +89,12 @@ a {
 }
 
 .box {
-	padding: 2rem 2rem;
+	padding: 2.5rem 2.5rem;
 	
+}
+.content {
+	padding: 1rem 1rem;
 }
 #center {
 	text-align: center
 }
-#weird {
-	margin: 0 auto;
-}
-

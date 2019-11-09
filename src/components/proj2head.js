@@ -28,12 +28,16 @@ const Proj2Head = () => (
 						<br></br>
 						
 				      <h1 className="title is-size-2">
-				        Undergraduate Honors Thesis
+				        Avoiding Deceptive Phishing 
 				      </h1>
 				      <br></br>
 				      <h2 className="subtitle">
-				        Enlisting Principles From Cognitive Psychology To Design Secure Emails
+				        Assisting people in avoiding and learning how to spot email phishing scams. 
 				      </h2>
+				      <br></br>
+				      <h3 className="subtitle is-size-6">
+				        Undergraduate Honors Thesis 
+				      </h3>
     				</div>
 
  				</div>

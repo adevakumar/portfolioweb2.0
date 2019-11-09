@@ -63,7 +63,7 @@ const AboutBody = () => (
  </h1>
   <br></br>
     <p className="subtitle"> 
-    Growing up with a much younger sister on the autism spectrum sparked my desire to be a positive role model and volunteer to help others out in any capacity. I spent my summers helping my sister out with homework, and seeing my sister’s affinity for digital and interactive educational resources over books sparked my interest in exploring how technology can support learning.
+    Growing up with a much younger sister sparked my desire to be a positive role model and volunteer to help others out in any capacity. I spent my summers helping my sister out with homework, and seeing my sister’s affinity for digital and interactive educational resources over books sparked my interest in exploring how technology can support learning.
     <br></br>
     <br></br>
 

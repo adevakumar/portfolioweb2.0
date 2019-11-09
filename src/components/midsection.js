@@ -106,7 +106,7 @@ const Midsection = () => (
 								    	<img src={thesis} alt="thesis"/>
 								    </figure>
 								  	</div>
-								<div class="content">
+								<div class="content" id="help">
 						    		<h2>Avoiding Deceptive Phishing</h2>
 								    <p className="heading is-size-7"><strong>UX Research, UX Design</strong></p>
 								    <p>Assisting people in avoiding and learning how to spot email phishing scams.</p>
@@ -119,18 +119,18 @@ const Midsection = () => (
 							<div className="column is-5">
 							<Link to="/proj5/">
 								<Box className="box">
-								<div class="card">
-									<div class="card-image">
-								    <figure class="image is-centered">
-								    	<img src={mastree} alt="mastree"/>
-								    </figure>
-								  	</div>
-								<div class="content">
-						    		<h2>Mastree</h2>
-								    <p className="heading is-size-7"><strong>Graphic Design, UX Design</strong></p>
-								    <p>Helping people accomplish foundational skills and gain basic technical knowledge on a simple platform.</p>
-						      </div>
-						      </div>
+									<div class="card">
+										<div class="card-image">
+									    <figure class="image is-centered">
+									    	<img src={mastree} alt="mastree"/>
+									    </figure>
+									</div>
+									<div class="content">
+							    		<h2>Mastree</h2>
+									    <p className="heading is-size-7"><strong>Graphic Design, UX Design</strong></p>
+									    <p>Helping people accomplish foundational skills and gain basic technical knowledge on a simple platform.</p>
+							      	</div>
+						      	</div>
 						      </Box>
 			     			</Link>
 					

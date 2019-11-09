@@ -29,6 +29,8 @@ const Header = ({ siteTitle }) => (
 				  <br></br>
 				  <br></br>
 				  <br></br>
+				  <br></br>
+				  <br></br>
 				 
 			
 				  <ScrollAnimation animateIn="fadeInLeft">
@@ -40,32 +42,8 @@ const Header = ({ siteTitle }) => (
 
 				  <span>
 
-				<a href="https://drive.google.com/file/d/1xQwBC6j8b40Ig8jAGv8UyqTsbpgXUdv2/view?usp=sharing" target="_blank" className="button is-dark is-small">View My Resume</a>
+				<a href="https://drive.google.com/file/d/1xQwBC6j8b40Ig8jAGv8UyqTsbpgXUdv2/view?usp=sharing" target="_blank" className="button is-outlined is-link">View My Resume</a>
 				</span> 
-								  <br></br>
-								  				  <br></br>
-
-
-				  <div className="subtitle"> Let's chat: anjali.devakumar@gmail.com</div>	
-				  <a href="https://github.com/adevakumar/" target="_blank"> 
-					<img style={{
-      width: "5%",
-    height: "auto"
-
-    }}
-    src={github} alt="github"/>
-    			</a>
-							<span> &nbsp; </span>
-
-					<a href="https://www.linkedin.com/in/anjali-devakumar/" target="_blank"> 
-				<img style={{
-      width: "5%",
-    height: "auto"
-
-    }}
-    src={linkedin} alt="linkedin"/>
-				</a>
-				<span> &nbsp; </span>
 				
 				  </div>
 				  <div className="column is-5 is-horizontal-center">
