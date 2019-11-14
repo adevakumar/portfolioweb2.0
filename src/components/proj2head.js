@@ -5,8 +5,6 @@ import './style.scss';
 import "animate.css/animate.min.css";
 import thesis from '../images/thesis.png';
 
-
-
 const Proj2Head = () => (
 <section className="hero is-light is-fullheight">
 	
@@ -25,7 +23,7 @@ const Proj2Head = () => (
 						<br></br>
 						<br></br>
 						<br></br>
-						<br></br>
+						
 						
 				      <h1 className="title is-size-2">
 				        Avoiding Deceptive Phishing 
@@ -34,10 +32,9 @@ const Proj2Head = () => (
 				      <h2 className="subtitle">
 				        Assisting people in avoiding and learning how to spot email phishing scams. 
 				      </h2>
-				      <br></br>
-				      <h3 className="subtitle is-size-6">
+				      <h4 className="subtitle is-size-6">
 				        Undergraduate Honors Thesis 
-				      </h3>
+				      </h4>
     				</div>
 
  				</div>
