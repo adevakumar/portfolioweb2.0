@@ -10,6 +10,16 @@ import fake_recomm from '../images/spotify_recomm.jpg';
 import google_warning from '../images/google_warning.png';
 import google_red from '../images/google_red.png';
 import inky from '../images/inky.png';
+import balance from '../images/balance.png';
+import turn from '../images/turn.png';
+import idea from '../images/idea.png';
+import recommended from '../images/recommended.png';
+import flowchart from '../images/flowchart_phishing.png';
+import proceed from '../images/proceed.png';
+import distrust from '../images/distrust.png';
+import alternative from '../images/alternative.png';
+import spotify_review_link from '../images/spotify_review_link.jpg';
+import spotify_recomm from '../images/spotify_recomm.jpg';
 
 
 const Proj2Body = () => (
@@ -24,8 +34,12 @@ const Proj2Body = () => (
           <p className="heading"><strong>Navigation</strong></p>
           <ul id="menu" className="menu-list">
             <li><a href="#overview">1. Overview</a></li>
-            <li><a href="#research">2. Research</a></li>
+            <li><a href="#research"><strong>2. Research</strong></a></li>
+            <li><a href="#research"><font color="white">___</font>Literature Review</a></li>
+            <li><a href="#research"><font color="white">___</font>Literature Review</a></li>
+
             <li><a href="#design">3. Design</a></li>
+            <li><a href="#design">4. Evaluation</a></li>
             
           </ul>
         </div>
@@ -333,7 +347,179 @@ intimidating users.
   <br></br>
   <br></br>
   <p className="subtitle"> Using the information obtained from the literature review, I identified the following goals for my proposed design: </p>
-   
+   <br></br>
+    <div className="columns is-mobile is-multiline is-vcentered is-centered">
+    <div className="column is-1">
+    <p className="bd-notification is-primary">
+       
+    </p>
+  </div>
+  <div className="column is-2">
+    <p className="bd-notification is-primary">
+      <img src={balance} alt="balance"/>
+    </p>
+  </div>
+  <div className="column is-1">
+    <p className="bd-notification is-primary">
+       
+    </p>
+  </div>
+  <div className="column is-7">
+    <p className="subtitle">
+      <strong>Strike a balance between the email system and a human user’s ability to identify a malicious email </strong> 
+    </p>
+  </div>
+</div>
+<br></br>
+    <div className="columns is-mobile is-multiline is-vcentered is-centered">
+    <div className="column is-1">
+    <p className="bd-notification is-primary">
+       
+    </p>
+  </div>
+  <div className="column is-2">
+    <p className="bd-notification is-primary">
+      <img src={turn} alt="turn"/>
+    </p>
+  </div>
+  <div className="column is-1">
+    <p className="bd-notification is-primary">
+       
+    </p>
+  </div>
+  <div className="column is-7">
+    <p className="subtitle">
+      <strong>Design will guide users with distinct choices to complete their task, but user is in control </strong> 
+    </p>
+  </div>
+</div>
+<br></br>
+    <div className="columns is-mobile is-multiline is-vcentered is-centered">
+    <div className="column is-1">
+    <p className="bd-notification is-primary">
+       
+    </p>
+  </div>
+  <div className="column is-2">
+    <p className="bd-notification is-primary">
+      <img src={idea} alt="idea"/>
+    </p>
+  </div>
+  <div className="column is-1">
+    <p className="bd-notification is-primary">
+       
+    </p>
+  </div>
+  <div className="column is-7">
+    <p className="subtitle">
+      <strong>Increased focus on providing relevant information and understandable language (no technical jargon)
+ </strong> 
+    </p>
+  </div>
+</div>
+<br></br>
+    <div className="columns is-mobile is-multiline is-vcentered is-centered">
+    <div className="column is-1">
+    <p className="bd-notification is-primary">
+       
+    </p>
+  </div>
+  <div className="column is-2">
+    <p className="bd-notification is-primary">
+      <img src={recommended} alt="recommended"/>
+    </p>
+  </div>
+  <div className="column is-1">
+    <p className="bd-notification is-primary">
+       
+    </p>
+  </div>
+  <div className="column is-7">
+    <p className="subtitle">
+      <strong>Potential consequences and recommendations should be conveyed </strong> 
+    </p>
+  </div>
+</div>
+<br></br>
+<br></br>
+      <p className="title is-size-5"> <font color="#F9C77B"> Design Flowchart </font> </p>
+
+      <br></br>
+      
+       <img src={flowchart} alt="flowchart"/>
+      <br></br>
+      <br></br>
+
+       <p className="subtitle">
+        A link is recognizable if it belongs to a significant organization or if the user has previously trusted it. Once a user trusts a link, they will never receive a warning message for an email with that specific link. The warning message will not pop up excessively and cause the user to ignore it. If the link is not recognized, the email presents a generic warning message above the email body. Upon reviewing the links, a user can distrust the link by blocking it or proceed to the website by trusting it. Since the focus is on deceptive phishing links, there is a particular recommended case that checks to see if the fake link matches a legitimate domain (90% or higher match). If the email system can identify a valid alternative, it displays it and redirects the user to the correct website. Although not included in this concept, the design assumes a personal black and whitelist concept that contains links the user has personally blocked and trusted. The design employs these personal lists in the case a user accidentally blocks or trusts a website and needs to make changes.  
+      </p>
+      <br></br>
+      <br></br>
+
+      <p className="title is-size-5"> <font color="#F9C77B"> Low Fidelity Prototype </font> </p>
+      <br></br>
+
+       <p className="subtitle">
+  Based on my design flowchart and suggestions from the literature review, I created rough prototypes using Powerpoint. I focused on making the design choices as simple as possible. 
+      </p>
+      <br></br>
+      <br></br>
+      <div className="columns is-mobile is-multiline is-vcentered is-centered">
+    <div className="column is-7">
+    <p>Proceed Case</p>
+            <br></br>
+       <img src={proceed} alt="proceed"/>
+  </div>
+  <div className="column">
+      <p>Distrust Case</p>
+              <br></br>
+      <img src={distrust} alt="distrust"/>
+  </div>
+  
+  </div>
+  <div className="columns is-mobile is-multiline is-vcentered is-centered">
+    <div className="column">
+            <br></br>
+            <p>Alternative Case</p>
+       <img src={alternative} alt="alternative"/>
+  </div>
+  </div>
+<br></br>
+
+       <p className="subtitle">
+  After presenting these concepts to a few people, I received feedback indicating that my error messages were not informative enough. A few people were unsure what actions would occur after they clicked on a certain button, because the button wording did not fully convey that. Additionally, a few people thought red was not the best color choice. However, people liked the discrete and distinct options and additionally liked that the messages did not fully detract from the email body content. In my next iteration, I focused on crafting more informative error messages and providing recommendations for what users should click. 
+  </p>
+  <br></br>
+    <br></br>
+
+      <p className="title is-size-5"> <font color="#F9C77B"> High-Fidelity Design </font> </p>
+  <br></br>
+  <p className="subtitle">
+  For the high-fidelity design, I identified seven major companies and designed phishing emails by referencing their style guide. The organizations are: Bank of America, Spotify, Dropbox, LinkedIn, Google Drive, Netflix, and Amazon. Below is the Spotify email I created.  
+  </p>
+  <br></br>
+         <img src={spotify_review_link} alt="spotify_review_link"/>
+
+  <br></br>
+  <br></br>
+  <p className="subtitle">
+  Screen 1: Review
+    <br></br>
+  <br></br>
+
+● Initial yellow warning primes for caution but does not detract from email content &nbsp;
+  <br></br>
+● Generic warning that conveys possible risk
+</p>
+  <br></br>
+
+<img src={spotify_recomm} alt="spotify_recomm"/>
+
+
+
+  
+      
+
 
 
 
