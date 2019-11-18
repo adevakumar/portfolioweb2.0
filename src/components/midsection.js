@@ -10,6 +10,8 @@ import mastree from '../images/mastree.png';
 import leader from '../images/leader.png';
 import dev from '../images/dev.png';
 import design from '../images/design.png';
+import walking from '../images/walking.png';
+import kiosk from '../images/kiosk.png';
 
 
 import Box from './hover';
@@ -135,6 +137,57 @@ const Midsection = () => (
 			     			</Link>
 					
 							</div>
+
+							<div className="column is-1 has-text-white">
+							<div>
+								&nbsp;
+							</div>
+							</div>
+							
+					<div className="column is-1 has-text-white">
+							<div>
+								&nbsp;
+							</div>
+							</div>		
+							<div className="column is-5">
+							<Link to="/convoy/">
+								<Box className="box">
+								<div class="card">
+									<div class="card-image">
+								    <figure class="image is-centered">
+								    	<img src={walking} alt="walking"/>
+								    </figure>
+								  	</div>
+								<div class="content" id="help">
+						    		<h2>Convoy</h2>
+								    <p className="heading is-size-7"><strong>UX Research, UX Design</strong></p>
+								    <p>Helping women who walk alone at night feel safer through community data..</p>
+						      </div>
+						      </div>
+						      </Box>
+			     			</Link>
+							</div>	
+
+							<div className="column is-5">
+							<Link to="/ncrkiosk/">
+								<Box className="box">
+									<div class="card">
+										<div class="card-image">
+									    <figure class="image is-centered">
+									    	<img src={kiosk} alt="kiosk"/>
+									    </figure>
+									</div>
+									<div class="content">
+							    		<h2>NCR Kiosk Accessibility</h2>
+									    <p className="heading is-size-7"><strong>UX Research, UX Design</strong></p>
+									    <p>Imagining a more accessible kiosk experience for visually impaired users.</p>
+							      	</div>
+						      	</div>
+						      </Box>
+			     			</Link>
+					
+							</div>
+
 							<div className="column is-1 has-text-white">
 							<div>
 								&nbsp;
@@ -165,57 +218,12 @@ const Midsection = () => (
 	     				</Link>
 				
 					</div>
-					<div className="column is-5">
-					<Link to="/proj4/">
-						<Box className="box">
-							<div className="tile is-ancestor">
-							<div className="tile is-parent">
-						        <article className="tile is-child box is-white">
-						          <figure className="image is-centered">
-					            	<img src={schoolviz} alt="schoolviz"/>
-						          </figure>
-						         <br></br>
-						          <p className="title is-size-4">Visualizing US School Data</p>
-					          		<p className="subtitle">Data Visualization Final Project, UMass</p>
-						        </article>
-						      </div>
-						      </div>	
-	     				</Box>	
-	     			</Link>
+					
 				
-					</div>
-					<div className="column is-1 has-text-white">
-							<div>
-								&nbsp;
-							</div>
-					</div>
-					<div className="column is-1 has-text-white">
-							<div>
-								&nbsp;
-							</div>
-					</div>
 					
 					
-					<div className="column is-5">
-							<div>
-							<Link to="/proj1/">
-								<Box id="weird" className="box">
-									<div className="tile is-ancestor">
-									<div className="tile is-parent">
-									    <article className="tile is-child box is-white">
-									      <figure className="image is-centered">
-									        <img src={tjx} alt="tjx"/>
-									      </figure>
-									     <br></br>
-									      <p className="title is-size-4">AI Outfit Generator</p>
-									      <p className="subtitle">TJX Intern Project with Microsoft</p>
-									    </article>
-									 </div>
-									 </div>	
-								</Box>
-							</Link>
-							</div>
-							</div>	
+					
+				
 
 				</div>
 				</ScrollAnimation>

@@ -4,7 +4,6 @@
 // Importing Bulma from node_modules
 @import '~bulma/bulma.sass';
 
-@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 
 .gradientBg {
 	display: flex;
@@ -17,7 +16,7 @@ padding: 50px;
 }
 
 h1 {
-	font-family: 'Comfortaa', cursive; 
+	font-family: 'Gilroy', sans-serif; 
 	font-size: 44px;
 }
 
@@ -76,6 +75,10 @@ h3 {
   position: -webkit-sticky;
   position: sticky;
   top: 9%;
+}
+
+.tile {
+	background-color: #E6E5E5;
 }
 
 

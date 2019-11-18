@@ -14,6 +14,8 @@ exports.components = {
   "component---src-pages-proj-2-js": hot(preferDefault(require("/Users/anjalidevakumar/portfolioweb2.0/src/pages/proj2.js"))),
   "component---src-pages-proj-3-js": hot(preferDefault(require("/Users/anjalidevakumar/portfolioweb2.0/src/pages/proj3.js"))),
   "component---src-pages-proj-4-js": hot(preferDefault(require("/Users/anjalidevakumar/portfolioweb2.0/src/pages/proj4.js"))),
-  "component---src-pages-proj-5-js": hot(preferDefault(require("/Users/anjalidevakumar/portfolioweb2.0/src/pages/proj5.js")))
+  "component---src-pages-proj-5-js": hot(preferDefault(require("/Users/anjalidevakumar/portfolioweb2.0/src/pages/proj5.js"))),
+  "component---src-pages-convoy-js": hot(preferDefault(require("/Users/anjalidevakumar/portfolioweb2.0/src/pages/convoy.js"))),
+  "component---src-pages-ncrkiosk-js": hot(preferDefault(require("/Users/anjalidevakumar/portfolioweb2.0/src/pages/ncrkiosk.js")))
 }
 

@@ -11,6 +11,8 @@ exports.components = {
   "component---src-pages-proj-2-js": () => import("/Users/anjalidevakumar/portfolioweb2.0/src/pages/proj2.js" /* webpackChunkName: "component---src-pages-proj-2-js" */),
   "component---src-pages-proj-3-js": () => import("/Users/anjalidevakumar/portfolioweb2.0/src/pages/proj3.js" /* webpackChunkName: "component---src-pages-proj-3-js" */),
   "component---src-pages-proj-4-js": () => import("/Users/anjalidevakumar/portfolioweb2.0/src/pages/proj4.js" /* webpackChunkName: "component---src-pages-proj-4-js" */),
-  "component---src-pages-proj-5-js": () => import("/Users/anjalidevakumar/portfolioweb2.0/src/pages/proj5.js" /* webpackChunkName: "component---src-pages-proj-5-js" */)
+  "component---src-pages-proj-5-js": () => import("/Users/anjalidevakumar/portfolioweb2.0/src/pages/proj5.js" /* webpackChunkName: "component---src-pages-proj-5-js" */),
+  "component---src-pages-convoy-js": () => import("/Users/anjalidevakumar/portfolioweb2.0/src/pages/convoy.js" /* webpackChunkName: "component---src-pages-convoy-js" */),
+  "component---src-pages-ncrkiosk-js": () => import("/Users/anjalidevakumar/portfolioweb2.0/src/pages/ncrkiosk.js" /* webpackChunkName: "component---src-pages-ncrkiosk-js" */)
 }
 
