@@ -199,27 +199,27 @@ const Midsection = () => (
 							</div>
 							</div>	
 					<div className="column is-5">
-					<Link to="/proj3/">
-
-						<Box className="box">
-							<div className="tile is-ancestor">
-							<div className="tile is-parent">
-						        <article className="tile is-child box is-white">
-						          <figure className="image is-centered">
-					            	<img src={fridge} alt="fridge_helper"/>
-						          </figure>
-						         <br></br>
-						          <p className="title is-size-4">Fridge Helper</p>
-					          	  <p className="subtitle">Intro to HCI project, UMass</p>
-						        </article>
-						      </div>
-						      </div>	
-	     				</Box>	
-	     				</Link>
-				
-					</div>
+							<Link to="/proj3/">
+								<Box className="box">
+									<div class="card">
+										<div class="card-image">
+									    <figure class="image is-centered">
+									    	<img src={fridge} alt="fridge_helper"/>
+									    </figure>
+									</div>
+									<div class="content">
+							    		<h2>FridgeHelper</h2>
+									    <p className="heading is-size-7"><strong>UX Design, Development</strong></p>
+									    <p>Preventing food waste by helping users understand what is in their fridge.</p>
+							      	</div>
+						      	</div>
+						      </Box>
+			     			</Link>
 					
-				
+							</div>
+
+							
+					
 					
 					
 					

@@ -20,6 +20,8 @@ import distrust from '../images/distrust.png';
 import alternative from '../images/alternative.png';
 import spotify_review_link from '../images/spotify_review_link.jpg';
 import spotify_recomm from '../images/spotify_recomm.jpg';
+import bofa_review_link from '../images/bofa_email.jpg';
+import bofa_recomm from '../images/bofa_warning_recomm.jpg';
 
 
 const Proj2Body = () => (
@@ -507,17 +509,96 @@ intimidating users.
     <br></br>
   <br></br>
 
-● Initial yellow warning primes for caution but does not detract from email content &nbsp;
+● Paler yellow color primes users for caution, rather than instilling fear or panic with a brighter/threatening color
+such as red that could cause them to act irrationally &nbsp;
   <br></br>
-● Generic warning that conveys possible risk
+● Generic message describes the reason why the
+email system placed a warning without any technical jargon to allow them to pay attention to the warning
 </p>
   <br></br>
 
 <img src={spotify_recomm} alt="spotify_recomm"/>
+<br></br>
+  <br></br>
+  <p className="subtitle">
+  Screen 1: Review
+    <br></br>
+  <br></br>
+
+● Suspicious area of URL is underlined in red to stand out against the yellow
+background to encourage the user to inspect the link closely. &nbsp;
+  <br></br>
+●  The warning offers two discrete choices but does not highlight one option because the system leaves the decision
+to trust the email link up to the user.  
+</p>
+  <br></br>
+  <h3 id="evaluation" className= "title is-size-4"> 
+  <font color="#F9C77B">
+  Evaluation  
+  </font></h3>
+  <br></br>
+  <br></br>
+  <p className="title is-size-5"> <font color="#F9C77B"> Usability Experiment </font> </p>
+      <br></br>
+        <p className="subtitle"> Through an unmoderated usability test, I evaluated how effective my email interface design
+was in communicating relevant information about the email. I created 7 different emails for the experiment using Sketch- 5 emails contained a deceptive phishing link and 2 contained no deceptive links. I framed the usability test as a role-playing activity where participants would assume the role of a character, Sam Minuteman, who works at a fictional consulting company and is evaluating a new email interface based on usability principles.  </p>
+      <br></br>
+      <p className="subtitle"> I had a total of 30 participants engage in my study. I randomly divided participants into two groups: Design Interventions (redesigned emails) and No Design Interventions (standard emails). I was not in the same room as them while they engaged with the experiment because I wanted to emulate a scenario in which someone was checking their emails alone, and I also did not want my presence to bias their decision in any way.</p>
+<div className="columns is-mobile is-multiline is-vcentered is-centered">
+    <div className="column">
+    <p>Bank of America email: No Design Interventions</p>
+            <br></br>
+       <img src={bofa_review_link} alt="bofa_review_link"/>
+  </div>
+  <div className="column">
+      <p>Bank of America email: Design Interventions</p>
+              <br></br>
+      <img src={bofa_recomm} alt="bofa_recomm"/>
+  </div>
+  </div>
+
+  <br></br>
+
+  <p className="title is-size-5"> <font color="#F9C77B"> Measuring Success </font> </p>
+      <br></br>
+  <p className="subtitle"> During the usability experiment, I tasked participants with reading the email content and choosing how they would respond to the email. They could use the 5 buttons at the foot of the email, click on buttons/links they found in the email - I was intentionally vague in telling them where they could click because I did not want influence their actions. These are the following metrics I used to evaluate how effective participants were in not getting phished:
+</p>
+    <br></br>
+    <p className="subtitle"><strong> Quantitative - Performance</strong></p>
+    <br></br>
+    <p className="subtitle"><strong>Task Completion </strong>: I capped each trial at a minute to ensure participants were browsing emails at a pace that mirrored real email browsing behavior. If participants spend more than a minute looking at an email, the trial immediately ends and moves onto the next one, and the trial outcome is “timeout”.</p>
+    <br></br>
+    <p className="subtitle"><strong>Phishing Amount</strong>:In a trial that contains a malicious email, I defined clicking on any of the hyperlinks, ‘Reply,’ or ‘Forward’ as being “susceptible to a phishing email. Regardless of where someone clicks in a legitimate trial, they will be safe, so I say they pass that trial. For each trial, I determine if a
+participant passes or gets phished</p>
+    <br></br><p className="subtitle">I assigned the following values to each of the various trial outcomes:</p>
+        <li>-Phished  = 0</li>
+        <li>-Timeout = 0.5</li>
+        <li>-Pass = 1</li>
+    <br></br>
+    <p className="subtitle">I added up the results for each participant and compute their average performance. Getting a score of 0 means that the user got phished for every email and a score of 1 means they passed every email.</p>
+    <br></br>
+  <p className="subtitle"><strong> Quantitative - Self-Report</strong></p>
+    <br></br>
+      <p className="subtitle">I also conducted a post-experiment survey to ask participants to rate aspects of the email design interface and how comfortable they felt using the tool. I created 9 Likert Scale questions that gave me a quantitative measure of usability: </p>
+    <br></br>
+      1. Relevant information is easy to find
+2. Email content is clearly presented
+3. Action buttons provide clear choices
+4. Colors and fonts are aesthetically pleasing
+5. I am able to identify any messages and choices easily
+6. I find the messages and choices presented easy to follow
+7. The interface is easy to learn and use
+8. I felt confident using the interface
+9. I would recommend this interface to a friend
+
+    
+        <li>Timeout = 0.5</li>
+        <li>Pass = 1</li>
 
 
 
-  
+
+
       
 
 

@@ -37,8 +37,8 @@ const Header = ({ siteTitle }) => (
 				  <h1> <strong> Hello, I'm Anjali! </strong> </h1>
 				   <br></br>
 				  </ScrollAnimation>
-					<div className="subtitle"> I’m an aspiring UX / product designer studying Human-Computer Interaction at Georgia Tech.
-					I'm exploring the intersections of HCI, Psychology, and social responsibility to create thoughtful and inclusive experiences. 	</div>	
+					<div className="subtitle"> I’m a UX Designer + Researcher studying Human-Computer Interaction at Georgia Tech.
+					I explore the intersections of HCI, Psychology, and social responsibility to create thoughtful and inclusive experiences. 	</div>	
 
 				  <span>
 
