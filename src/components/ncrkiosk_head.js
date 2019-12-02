@@ -33,7 +33,7 @@ const NCRKioskHead = () => (
 				      </h1>
 				      <br></br>
 				      <h2 className="subtitle">
-				        <strong>Intern Project Goal</strong>: Marry the business needs of driving e-commerce innovation and the technical needs of TJX by supporting them in their transition to Microsoft Azure.
+				        Imagining a more accessible kiosk experience for visually impaired users.
 				      </h2>
     				</div>
 

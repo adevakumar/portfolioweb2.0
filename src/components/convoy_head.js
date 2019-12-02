@@ -33,7 +33,7 @@ const ConvoyHead = () => (
 				      </h1>
 				      <br></br>
 				      <h2 className="subtitle">
-				        <strong>Intern Project Goal</strong>: Marry the business needs of driving e-commerce innovation and the technical needs of TJX by supporting them in their transition to Microsoft Azure.
+				        An app and wearable ring that helps women who walk alone at night feel safer through community data.
 				      </h2>
     				</div>
 

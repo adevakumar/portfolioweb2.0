@@ -9,6 +9,7 @@ import "animate.css/animate.min.css";*/
 const ConvoyBody = () => (
     <div className="container">
     <br></br>
+    Project is currently being updated. Please check back shortly for more information!
     </div>
   	
 

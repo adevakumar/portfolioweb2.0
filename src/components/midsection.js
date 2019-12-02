@@ -161,7 +161,7 @@ const Midsection = () => (
 								<div class="content" id="help">
 						    		<h2>Convoy</h2>
 								    <p className="heading is-size-7"><strong>UX Research, UX Design</strong></p>
-								    <p>Helping women who walk alone at night feel safer through community data..</p>
+								    <p>Helping women who walk alone at night feel safer through community data.</p>
 						      </div>
 						      </div>
 						      </Box>

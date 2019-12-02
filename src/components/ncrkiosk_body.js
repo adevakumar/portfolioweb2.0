@@ -9,6 +9,7 @@ import "animate.css/animate.min.css";*/
 const NCRKioskBody = () => (
     <div className="container">
     <br></br>
+    Project is currently being updated with new information. Please check back shortly!
     </div>
   	
 

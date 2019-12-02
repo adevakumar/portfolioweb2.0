@@ -35,13 +35,24 @@ const Proj2Body = () => (
         <div className="menu_sticky">       
           <p className="heading"><strong>Navigation</strong></p>
           <ul id="menu" className="menu-list">
-            <li><a href="#overview">1. Overview</a></li>
+            <li><a href="#overview"><strong>1. Overview</strong></a></li>
+            <li><a href="#overview"><font color="white">___</font>Problem</a></li>
+            <li><a href="#overview"><font color="white">___</font>Solution</a></li>
+            <li><a href="#overview"><font color="white">___</font>Details</a></li>
+            <li><a href="#overview"><font color="white">___</font>Process</a></li>
+
             <li><a href="#research"><strong>2. Research</strong></a></li>
             <li><a href="#research"><font color="white">___</font>Literature Review</a></li>
-            <li><a href="#research"><font color="white">___</font>Literature Review</a></li>
+            <li><a href="#research"><font color="white">___</font>Understanding User Abilities</a></li>
 
-            <li><a href="#design">3. Design</a></li>
-            <li><a href="#design">4. Evaluation</a></li>
+            <li><a href="#design"><strong>3. Design</strong></a></li>
+            <li><a href="#design"><font color="white">___</font>Design Flowchart</a></li>
+            <li><a href="#design"><font color="white">___</font>Low Fidelity Prototype</a></li>
+            <li><a href="#design"><font color="white">___</font>High Fidelity Design</a></li>
+            <li><a href="#evaluation"><strong>4. Evaluation</strong></a></li>
+            <li><a href="#evaluation"><font color="white">___</font>Usability Experiment</a></li>
+            <li><a href="#evaluation"><font color="white">___</font>Measuring Success</a></li>
+
             
           </ul>
         </div>
