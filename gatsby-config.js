@@ -1,6 +1,6 @@
 module.exports = {
 	siteMetadata: {
-		title: 'Anjali Devakumar Portfolio Website',
+		title: 'Anjali Devakumar',
 		author: 'Anjali Devakumar',
 		imageUrl: 'https://i.imgur.com/Vz81GEl.png',
 		description: 'A Project to bootstrap your next Gatsby + Bulma site.',
