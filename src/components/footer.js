@@ -7,7 +7,7 @@ import './style.scss';
 
 
 const Footer = () => (
-	<section id="navbarMenuHeroA"className="hero is-centered" >
+	<section id="navbarMenuHeroA"className="hero is-light is-centered" >
   <div className="hero-body has-text-centered">
   <div className="columns">
   <div className="column is-5"> &nbsp;</div>

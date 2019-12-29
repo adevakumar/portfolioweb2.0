@@ -22,6 +22,12 @@ import spotify_review_link from '../images/spotify_review_link.jpg';
 import spotify_recomm from '../images/spotify_recomm.jpg';
 import bofa_review_link from '../images/bofa_email.jpg';
 import bofa_recomm from '../images/bofa_warning_recomm.jpg';
+import phishing_sus from '../images/phishing_sus_results.png';
+import no_phishing_sus from '../images/no_phishing_results.png';
+import design_response from '../images/design_intervention_response.png';
+import no_design_response from '../images/no_design_response.png';
+
+
 
 
 const Proj2Body = () => (
@@ -52,9 +58,9 @@ const Proj2Body = () => (
             <li><a href="#evaluation"><strong>4. Evaluation</strong></a></li>
             <li><a href="#evaluation"><font color="white">___</font>Usability Experiment</a></li>
             <li><a href="#evaluation"><font color="white">___</font>Measuring Success</a></li>
-
-            
           </ul>
+          <br></br>
+          <br></br>
         </div>
       </div>
 <div className="column is-10">
@@ -65,7 +71,7 @@ const Proj2Body = () => (
   <br></br>
   <p className="title is-size-5"> <font color="#F9C77B"> Problem </font> </p>
   <br></br>
-    <p className="subtitle"> Deceptive phishing refers to an attack by which hackers mimic a legitimate company and attempt to steal a customer's credentials. This attack commonly occurs over email and websites to create a false representation of legitimacy for unassuming users. The average person does not actively think about security as they check email, browse websites, and complete tasks online. By using convincing visuals and emotionally-charged language, the content of phishing emails hinder critical thinking to compel one to respond to the email’s request and divulge their personal information. The impact of deceptive phishing is tremendous, resulting in identity theft for individual users or data breaches for influentual companies. 
+    <p className="subtitle is-6"> Deceptive phishing refers to an attack by which hackers mimic a legitimate company and attempt to steal a customer's credentials. This attack commonly occurs over email and websites to create a false representation of legitimacy for unassuming users. The average person does not actively think about security as they check email, browse websites, and complete tasks online. By using convincing visuals and emotionally-charged language, the content of phishing emails hinder critical thinking to compel one to respond to the email’s request and divulge their personal information. The impact of deceptive phishing is tremendous, resulting in identity theft for individual users or data breaches for influentual companies. 
     </p>
   <br></br>
 
@@ -168,7 +174,9 @@ const Proj2Body = () => (
   <p className="title is-size-5"> <font color="#F9C77B"> Literature Review </font> </p>
       <br></br>
           <p className="subtitle"> 
-         <font color="#F9C77B"> High-Level Goals </font>
+          <strong>
+         <font color="#F9C77B">  High-Level Goals  </font>
+         </strong>
       <br></br>
       <br></br>
 
@@ -183,7 +191,9 @@ const Proj2Body = () => (
     </p>
   <br></br>
    <p className="subtitle"> 
+              <strong>
          <font color="#F9C77B"> Problem Impact </font>
+         </strong>
       <br></br>
       <br></br>
       Phishing, a pervasive security scam, is an umbrella term that describes fraudulent
@@ -204,7 +214,11 @@ Further research into the problem space demonstrates that people may lack a fund
   </p>
   <br></br>
    <p className="subtitle"> 
+        <strong>
+
          <font color="#F9C77B"> Psychological Influence </font>
+             </strong>
+
       <br></br>
       <br></br>
       While I conducted my literature review, I read papers and books related to theoretical cognitive psychology, as phishing is primarily an attack that takes advantage of human behavior to manipulate their actions accordingly. 
@@ -228,14 +242,18 @@ Cognitive psychology, the study of mental processes such as attention, perceptio
     <br></br>
 
   <p className="subtitle"> 
+      <strong>
+
          <font color="#F9C77B"> A Few Existing Solutions </font>
+             </strong>
+
       <br></br>
       Existing security warnings use reactive methods that notify the user after they click on a
 link. 
 
     </p>
     <br></br>
-    <p className="subtitle"> Gmail</p>
+    <p className="subtitle"> <strong> Gmail </strong></p>
     <div className="columns">
           <div className="column">
             <img src={google_warning} alt="google_warning"/>
@@ -250,7 +268,7 @@ for phishing and flashes a generic warning that alerts users that an email is da
 bold red color, while attracting attention, can intimidate users and detract from the email
 content if the email is genuinely legitimate.</p>
           <br></br>
-   <p className="subtitle"> Inky</p>
+   <p className="subtitle"> <strong> Inky </strong> </p>
 
     <div className="column">
             <img src={inky} alt="inky"/>
@@ -582,9 +600,9 @@ was in communicating relevant information about the email. I created 7 different
     <p className="subtitle"><strong>Phishing Amount</strong>:In a trial that contains a malicious email, I defined clicking on any of the hyperlinks, ‘Reply,’ or ‘Forward’ as being “susceptible to a phishing email. Regardless of where someone clicks in a legitimate trial, they will be safe, so I say they pass that trial. For each trial, I determine if a
 participant passes or gets phished</p>
     <br></br><p className="subtitle">I assigned the following values to each of the various trial outcomes:</p>
-        <li>-Phished  = 0</li>
-        <li>-Timeout = 0.5</li>
-        <li>-Pass = 1</li>
+        <li>Phished  = 0</li>
+        <li>Timeout = 0.5</li>
+        <li>Pass = 1</li>
     <br></br>
     <p className="subtitle">I added up the results for each participant and compute their average performance. Getting a score of 0 means that the user got phished for every email and a score of 1 means they passed every email.</p>
     <br></br>
@@ -593,51 +611,123 @@ participant passes or gets phished</p>
       <p className="subtitle">I also conducted a post-experiment survey to ask participants to rate aspects of the email design interface and how comfortable they felt using the tool. I created 9 Likert Scale questions that gave me a quantitative measure of usability: </p>
     <br></br>
       1. Relevant information is easy to find
+          <br></br>
 2. Email content is clearly presented
+    <br></br>
 3. Action buttons provide clear choices
+    <br></br>
 4. Colors and fonts are aesthetically pleasing
+    <br></br>
 5. I am able to identify any messages and choices easily
+    <br></br>
 6. I find the messages and choices presented easy to follow
+    <br></br>
 7. The interface is easy to learn and use
+    <br></br>
 8. I felt confident using the interface
+    <br></br>
 9. I would recommend this interface to a friend
-
-    
-        <li>Timeout = 0.5</li>
-        <li>Pass = 1</li>
-
-
-
-
-
+    <br></br>
+        <br></br>
+      <p className="subtitle"><strong> Qualitative - Self-Report</strong></p>
+    <br></br>
+      <p className="subtitle"> 
+      When I debriefed participants about the usability test’s true intentions, I held an unstructured interview with them where I showed them their results (how many times they were phished). This method gave me qualitative data regarding participants overall thoughts and impressons of the design, and additionally they provided me verbal feedback and talked about their experience with phishing. 
+      </p>
+          <br></br>
+        <p className="title is-size-5"> <font color="#F9C77B"> Experiment Results </font> </p>
+    <br></br>
+           <img src={phishing_sus} alt="phishing_sus"/>
+    <br></br>
+    <p className="subtitle"> 
+    This bar chart shows phishing susceptibility on each malicious email trial. The height of the bar indicates
+the percentage of participants who did not fall for phishing on that specific email. Email phishing susceptibility
+increases from left to right, with Bank of America being the easiest to spot and Spotify being the hardest to spot. </p>
+    <p className="subtitle"> <i><strong>
+Interpretation : 93% of users in the 'No Design Interventions' group did not fall for the Bank of America email </strong></i></p>
+    <br></br>
+      <p className="subtitle"> <u> <strong>Overall Averages (15 participants in each group):</strong></u>
+          <br></br>
+          <br></br>
+      <strong>No Design Interventions</strong> : Users passed <strong> <u>57.6%</u></strong> of the emails*
+          <br></br>
+      *One participant timed out and did not respond (so calculated using 14 participants)
+          <br></br>
+          <br></br>
+      <strong>Design Interventions</strong>: Users passed <strong> <u>80.6%</u></strong> of the emails
+          <br></br>
+    </p>
+    <br></br>
+    <div className="columns">
+      <div className="column is-6">
+        <img src={no_phishing_sus} alt="no_phishing_sus"/>
+      </div>
+      <div className="column">
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       
-
-
-
-
-
-
-
-
-
-
-
-
+         <p className="subtitle"> The second bar chart describes phishing
+susceptibility on each legitimate email trial. The height of the bar indicates the percentage of participants who did not fall for phishing on that specific email. In legitimate email trials, regardless of whatever option chosen, participants will
+not get phished.</p>
+      </div>
+    </div>
+    <br></br>
+     <p className="title is-size-5"> <font color="#F9C77B"> Post Experiment Survey Results </font> </p>
+     <br></br>
+     <p className="subtitle"> Design Intervention Group - Response Breakdown </p> 
+      <img src={design_response} alt="design_intervention_response"/>
+     <br></br>
+     <p className="subtitle">This stacked bar chart shows the Design Intervention group’s breakdown of responses for the 9 Usability/design
+critique questions I asked after the usability experiment. Each bar represents a design statement and the bars are in order of more positive agreement to each of
+these statements.</p>
+      <br></br>
+      <p className="subtitle"> No Design Intervention Group - Response Breakdown </p> 
+      <img src={no_design_response} alt="no_design_response"/>
+       <br></br>
+        <p className="subtitle">
+       This stacked bar chart shows the No Design Intervention group’s breakdown of responses for the design
+critiques. Each bar represents a design statement and the bars are in order of more positive agreement to each of
+these statements.</p>
+       <br></br>
+     <p className="title is-size-5"> <font color="#F9C77B"> Design Feedback and Suggested Improvements </font> </p>
+       <br></br>
+       <p className="subtitle"> Overall, subjects in the Design Interventions group gave much higher ratings for all the
+presented statements, as the lowest rating any participant gave was ‘Neutral.’ However, a few design issues became apparent after this evaluation session. </p>
+       <br></br>
+       <p className="subtitle"><u>Issue 1: <strong>Yellow color chosen for the warning might not be captivating enough</strong> </u> </p>
+      <p className="subtitle">The next iteration of the warning design can have a brighter version of yellow or orange to catch the user’s attention.
+The security indicator could feature an icon in red, and the yellow box can include some 3D shade or border to increase the contrast of the warning and make it noticeable alongside the email content.</p>
+       <br></br>
+      <p className="subtitle"><u>Issue 2: <strong>Some users wanted to ignore the email within the experiment/Some did not want to click ‘Review Links”</strong> </u> </p>
+      <p className="subtitle">The next iteration can provide users with the ability to not take any action at all. However, one goal of the design was to educate users about how deceptive phishing looks, so more thought should be placed in teaching users these signs while also minimizing the effort they need to spend interacting with the email.</p>
+         <br></br>
+      <p className="subtitle"><u>Issue 3: <strong>Some users expressed confusion about the legitimacy of the system’s messages.</strong> </u> </p>
+      <p className="subtitle">To legitimize the warnings, the next version could include a statement saying that the messages are
+coming from the email system, so participants do not think it is part of the malicious email.</p>
+       <br></br>
+    <p className="title is-size-5"> <font color="#F9C77B"> Reflections and Future Work </font> </p>
+       <br></br>
+      <p className="subtitle">Overall, the participants believed that the redesigns strike a good balance of not only giving the user control on determining the legitimacy of a link but also
+priming them with unambiguous email system interventions. The usability experiment sheds insight on how people browse emails, and the biggest takeaway is that people do not spend time reading the email content in detail. Overall, the redesign demonstrated that some mediation on the email system’s
+behalf alerts users about suspicious security activity and decreases the number of phishing attacks.</p>
+      
+<p className="subtitle"> The next steps of this research would be to incorporate the participant feedback and
+create a second version of the redesign for further user-testing. I want to <strong>extend my participant
+pool to non-UMass students</strong> to see how demographics such as age and work experience can
+affect phishing prevalence. Since people routinely check email on their mobile devices, I would
+like to explore <strong>how to design security indicators for different types of interfaces </strong> like email
+applications and emails viewable on a mobile browser. Exploring these various mediums can
+demonstrate what design elements and psychological phenomena are universally applicable,
+and what varies based on the interface. </p>
+<br></br>
+<br></br>
   </div>
-
-
-
-
-
   </div>
-  </div>
+</div>
 
-  
-
-
-  
-
-  	
 
 );
 export default Proj2Body;
