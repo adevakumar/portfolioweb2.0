@@ -100,6 +100,59 @@ const Midsection = () => (
 							</div>
 							</div>		
 							<div className="column is-5">
+							<Link to="/ncrkiosk/">
+								<Box className="box">
+									<div class="card">
+										<div class="card-image">
+									    <figure class="image is-centered">
+									    	<img src={kiosk} alt="kiosk"/>
+									    </figure>
+									</div>
+									<div class="content">
+							    		<h2>NCR Kiosk Accessibility</h2>
+									    <p className="heading is-size-7"><strong>UX Research, UX Design</strong></p>
+									    <p>Imagining a more accessible kiosk experience for visually impaired users.</p>
+							      	</div>
+						      	</div>
+						      </Box>
+			     			</Link>
+					
+							
+							</div>	
+
+
+							<div className="column is-5">
+							<Link to="/convoy/">
+								<Box className="box">
+								<div class="card">
+									<div class="card-image">
+								    <figure class="image is-centered">
+								    	<img src={walking} alt="walking"/>
+								    </figure>
+								  	</div>
+								<div class="content" id="help">
+						    		<h2>Convoy</h2>
+								    <p className="heading is-size-7"><strong>UX Research, UX Design</strong></p>
+								    <p>Helping women who walk alone at night feel safer through community data.</p>
+						      </div>
+						      </div>
+						      </Box>
+			     			</Link>
+							
+							</div>
+
+							<div className="column is-1 has-text-white">
+							<div>
+								&nbsp;
+							</div>
+							</div>
+							<div className="column is-1 has-text-white">
+							<div>
+								&nbsp;
+							</div>
+							</div>	
+								
+							<div className="column is-5">
 							<Link to="/proj2/">
 								<Box className="box">
 								<div class="card">
@@ -144,79 +197,8 @@ const Midsection = () => (
 							</div>
 							</div>
 							
-					<div className="column is-1 has-text-white">
-							<div>
-								&nbsp;
-							</div>
-							</div>		
-							<div className="column is-5">
-							<Link to="/convoy/">
-								<Box className="box">
-								<div class="card">
-									<div class="card-image">
-								    <figure class="image is-centered">
-								    	<img src={walking} alt="walking"/>
-								    </figure>
-								  	</div>
-								<div class="content" id="help">
-						    		<h2>Convoy</h2>
-								    <p className="heading is-size-7"><strong>UX Research, UX Design</strong></p>
-								    <p>Helping women who walk alone at night feel safer through community data.</p>
-						      </div>
-						      </div>
-						      </Box>
-			     			</Link>
-							</div>	
-
-							<div className="column is-5">
-							<Link to="/ncrkiosk/">
-								<Box className="box">
-									<div class="card">
-										<div class="card-image">
-									    <figure class="image is-centered">
-									    	<img src={kiosk} alt="kiosk"/>
-									    </figure>
-									</div>
-									<div class="content">
-							    		<h2>NCR Kiosk Accessibility</h2>
-									    <p className="heading is-size-7"><strong>UX Research, UX Design</strong></p>
-									    <p>Imagining a more accessible kiosk experience for visually impaired users.</p>
-							      	</div>
-						      	</div>
-						      </Box>
-			     			</Link>
 					
-							</div>
-
-							<div className="column is-1 has-text-white">
-							<div>
-								&nbsp;
-							</div>
-							</div>
-							<div className="column is-1 has-text-white">
-							<div>
-								&nbsp;
-							</div>
-							</div>	
-					<div className="column is-5">
-							<Link to="/proj3/">
-								<Box className="box">
-									<div class="card">
-										<div class="card-image">
-									    <figure class="image is-centered">
-									    	<img src={fridge} alt="fridge_helper"/>
-									    </figure>
-									</div>
-									<div class="content">
-							    		<h2>FridgeHelper</h2>
-									    <p className="heading is-size-7"><strong>UX Design, Development</strong></p>
-									    <p>Preventing food waste by helping users understand what is in their fridge.</p>
-							      	</div>
-						      	</div>
-						      </Box>
-			     			</Link>
 					
-							</div>
 
 							
 					

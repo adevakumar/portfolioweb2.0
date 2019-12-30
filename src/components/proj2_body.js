@@ -38,23 +38,27 @@ const Proj2Body = () => (
 	<br></br>
   <div id="here" className="columns">
       <div className="column is-2">
-        <div className="menu_sticky">       
-          <p className="heading"><strong>Navigation</strong></p>
+        <div className="menu_sticky">  
+          <h3 className="heading"><strong><font color="#F5F5F5"> __</font></strong></h3>
+          <h3 className="heading"><strong><font color="#F5F5F5"> __</font>Navigation</strong></h3>
           <ul id="menu" className="menu-list">
-            <li><a href="#overview"><strong>1. Overview</strong></a></li>
-            <li><a href="#overview"><font color="white">___</font>Problem</a></li>
-            <li><a href="#overview"><font color="white">___</font>Solution</a></li>
-            <li><a href="#overview"><font color="white">___</font>Details</a></li>
-            <li><a href="#overview"><font color="white">___</font>Process</a></li>
+             <li><a href="#overview"><strong>1. Overview</strong></a></li>
+            <li><a href="#problem"><font color="white">___</font>Problem</a></li>
+            <li><a href="#solution"><font color="white">___</font>Solution</a></li>
+            <li><a href="#details"><font color="white">___</font>Details</a></li>
+            <li><a href="#process"><font color="white">___</font>Process</a></li>
 
-            <li><a href="#research"><strong>2. Research</strong></a></li>
-            <li><a href="#research"><font color="white">___</font>Literature Review</a></li>
-            <li><a href="#research"><font color="white">___</font>Understanding User Abilities</a></li>
+
+             <li><a href="#research"><strong>2. Research</strong></a></li>
+            <li><a href="#lit_review"><font color="white">___</font>Literature Review</a></li>
+            <li><a href="#understanding_users"><font color="white">___</font>Understanding User Abilities</a></li>
 
             <li><a href="#design"><strong>3. Design</strong></a></li>
-            <li><a href="#design"><font color="white">___</font>Design Flowchart</a></li>
-            <li><a href="#design"><font color="white">___</font>Low Fidelity Prototype</a></li>
-            <li><a href="#design"><font color="white">___</font>High Fidelity Design</a></li>
+        <li><a href="#design_goals"><font color="white">___</font>Design Goals</a></li>
+            <li><a href="#design_flowchart"><font color="white">___</font>Design Flowchart</a></li>
+            <li><a href="#low_fi"><font color="white">___</font>Low Fidelity Prototype</a></li>
+            <li><a href="#high_fi"><font color="white">___</font>High Fidelity Design</a></li>
+            
             <li><a href="#evaluation"><strong>4. Evaluation</strong></a></li>
             <li><a href="#evaluation"><font color="white">___</font>Usability Experiment</a></li>
             <li><a href="#evaluation"><font color="white">___</font>Measuring Success</a></li>
@@ -69,20 +73,20 @@ const Proj2Body = () => (
   Overview 
   </font></h3>
   <br></br>
-  <p className="title is-size-5"> <font color="#F9C77B"> Problem </font> </p>
+  <p id="problem" className="title is-size-5"> <font color="#F9C77B"> Problem </font> </p>
   <br></br>
     <p className="subtitle is-6"> Deceptive phishing refers to an attack by which hackers mimic a legitimate company and attempt to steal a customer's credentials. This attack commonly occurs over email and websites to create a false representation of legitimacy for unassuming users. The average person does not actively think about security as they check email, browse websites, and complete tasks online. By using convincing visuals and emotionally-charged language, the content of phishing emails hinder critical thinking to compel one to respond to the email’s request and divulge their personal information. The impact of deceptive phishing is tremendous, resulting in identity theft for individual users or data breaches for influentual companies. 
     </p>
   <br></br>
 
-  <p className="title is-size-5"> <font color="#F9C77B"> Solution </font> </p>
+  <p id="solution" className="title is-size-5"> <font color="#F9C77B"> Solution </font> </p>
   <br></br>
     <p className="subtitle"> I created a redesigned email interface that aids users in determining whether a redirected hyperlink in an email is malicious or legitimate. The interface focuses on providing simple error messages that do not overpower the email content, enabling users to complete their tasks efficientiy while also being informed of security.  
     </p>
   <br></br>
 
 
-  <p className="title is-size-5"> <font color="#F9C77B"> Details </font> </p>
+  <p id="details" className="title is-size-5"> <font color="#F9C77B"> Details </font> </p>
 
   <nav className="level">
   <div className="level-item">
@@ -124,7 +128,7 @@ const Proj2Body = () => (
   </nav>
 
   <br></br>
-  <p className="title is-size-5"> <font color="#F9C77B"> Process </font> </p>
+  <p id="process" className="title is-size-5"> <font color="#F9C77B"> Process </font> </p>
     <div className="columns">
           <div className="column">
               <div className="box">
@@ -171,7 +175,7 @@ const Proj2Body = () => (
   </font></h3>
   <br></br>
   <br></br>
-  <p className="title is-size-5"> <font color="#F9C77B"> Literature Review </font> </p>
+  <p id="lit_review" className="title is-size-5"> <font color="#F9C77B"> Literature Review </font> </p>
       <br></br>
           <p className="subtitle"> 
           <strong>
@@ -238,7 +242,7 @@ towards missing security indicators
       <br></br>
 Cognitive psychology, the study of mental processes such as attention, perception, and problem-solving provides insight into how users make decisions, prioritize information, or learn skills. As humans primarily engage with visual information on a screen to make decisions quickly, having this solid background can allow me to create a redesigned interface more in line with a user’s typical behavior.
   </p>
-  <br></br>
+ 
     <br></br>
 
   <p className="subtitle"> 
@@ -246,7 +250,7 @@ Cognitive psychology, the study of mental processes such as attention, perceptio
 
          <font color="#F9C77B"> A Few Existing Solutions </font>
              </strong>
-
+    <br></br>
       <br></br>
       Existing security warnings use reactive methods that notify the user after they click on a
 link. 
@@ -320,7 +324,7 @@ messages are often vaguer and smaller.</p>
   </p>
   <br></br>
 
-    <p className="title is-size-5"> <font color="#F9C77B"> Understanding User Abilities </font> </p>
+    <p id="understanding_users" className="title is-size-5"> <font color="#F9C77B"> Understanding User Abilities </font> </p>
   <br></br>
 
     <p className="subtitle">When using a web or mobile interface, humans rely on their vision to form judgments, process information and allocate attention to objects. Therefore, I read Cognitive Psychology literature to identify any principles that are relevant to explaining how users interact with a web interface and how to redesign the email interface to draw attention towards phishing warning messages. 
@@ -376,6 +380,8 @@ intimidating users.
   Design 
   </font></h3>
   <br></br>
+  <p id="design_goals" className="title is-size-5"> <font color="#F9C77B"> Design Goals </font> </p>
+
   <br></br>
   <p className="subtitle"> Using the information obtained from the literature review, I identified the following goals for my proposed design: </p>
    <br></br>
@@ -473,7 +479,7 @@ intimidating users.
 </div>
 <br></br>
 <br></br>
-      <p className="title is-size-5"> <font color="#F9C77B"> Design Flowchart </font> </p>
+      <p id="design_flowchart" className="title is-size-5"> <font color="#F9C77B"> Design Flowchart </font> </p>
 
       <br></br>
       
@@ -487,7 +493,7 @@ intimidating users.
       <br></br>
       <br></br>
 
-      <p className="title is-size-5"> <font color="#F9C77B"> Low Fidelity Prototype </font> </p>
+      <p id="low_fi" className="title is-size-5"> <font color="#F9C77B"> Low Fidelity Prototype </font> </p>
       <br></br>
 
        <p className="subtitle">
@@ -523,7 +529,7 @@ intimidating users.
   <br></br>
     <br></br>
 
-      <p className="title is-size-5"> <font color="#F9C77B"> High-Fidelity Design </font> </p>
+      <p id="high_fi"className="title is-size-5"> <font color="#F9C77B"> High-Fidelity Design </font> </p>
   <br></br>
   <p className="subtitle">
   For the high-fidelity design, I identified seven major companies and designed phishing emails by referencing their style guide. The organizations are: Bank of America, Spotify, Dropbox, LinkedIn, Google Drive, Netflix, and Amazon. Below is the Spotify email I created.  
@@ -726,7 +732,9 @@ and what varies based on the interface. </p>
 <br></br>
   </div>
   </div>
+
 </div>
+
 
 
 );
