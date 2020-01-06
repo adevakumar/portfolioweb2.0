@@ -43,27 +43,30 @@ const Proj2Body = () => (
           <h3 className="heading"><strong><font color="#F5F5F5"> __</font>Navigation</strong></h3>
           <ul id="menu" className="menu-list">
              <li><a href="#overview"><strong>1. Overview</strong></a></li>
-            <li><a href="#problem"><font color="white">___</font>Problem</a></li>
-            <li><a href="#solution"><font color="white">___</font>Solution</a></li>
-            <li><a href="#details"><font color="white">___</font>Details</a></li>
-            <li><a href="#process"><font color="white">___</font>Process</a></li>
+            <li><a href="#problem"><font color="#F5F5F5">___</font>Problem</a></li>
+            <li><a href="#solution"><font color="#F5F5F5">___</font>Solution</a></li>
+            <li><a href="#details"><font color="#F5F5F5">___</font>Details</a></li>
+            <li><a href="#process"><font color="#F5F5F5">___</font>Process</a></li>
 
 
              <li><a href="#research"><strong>2. Research</strong></a></li>
-            <li><a href="#lit_review"><font color="white">___</font>Literature Review</a></li>
-            <li><a href="#understanding_users"><font color="white">___</font>Understanding User Abilities</a></li>
+            <li><a href="#lit_review"><font color="#F5F5F5">___</font>Literature Review</a></li>
+            <li><a href="#understanding_users"><font color="#F5F5F5">___</font>Understanding User Abilities</a></li>
 
             <li><a href="#design"><strong>3. Design</strong></a></li>
-        <li><a href="#design_goals"><font color="white">___</font>Design Goals</a></li>
-            <li><a href="#design_flowchart"><font color="white">___</font>Design Flowchart</a></li>
-            <li><a href="#low_fi"><font color="white">___</font>Low Fidelity Prototype</a></li>
-            <li><a href="#high_fi"><font color="white">___</font>High Fidelity Design</a></li>
+        <li><a href="#design_goals"><font color="#F5F5F5">___</font>Design Goals</a></li>
+            <li><a href="#design_flowchart"><font color="#F5F5F5">___</font>Design Flowchart</a></li>
+            <li><a href="#low_fi"><font color="#F5F5F5">___</font>Low Fidelity Prototype</a></li>
+            <li><a href="#high_fi"><font color="#F5F5F5">___</font>High Fidelity Design</a></li>
             
             <li><a href="#evaluation"><strong>4. Evaluation</strong></a></li>
-            <li><a href="#evaluation"><font color="white">___</font>Usability Experiment</a></li>
-            <li><a href="#evaluation"><font color="white">___</font>Measuring Success</a></li>
+            <li><a href="#usability_exp"><font color="#F5F5F5">___</font>Usability Experiment</a></li>
+            <li><a href="#measure_suc"><font color="#F5F5F5">___</font>Measuring Success</a></li>
+            <li><a href="#exp_results"><font color="#F5F5F5">___</font>Experiment Results</a></li>
+            <li><a href="#post_survey"><font color="#F5F5F5">___</font>Post Experiment Survey</a></li>
+            <li><a href="#feedback"><font color="#F5F5F5">___</font>Design Feedback and Suggestions </a></li>
+            <li><a href="#reflections"><font color="#F5F5F5">___</font>Reflections</a></li>
           </ul>
-          <br></br>
           <br></br>
         </div>
       </div>
@@ -573,7 +576,7 @@ to trust the email link up to the user.
   </font></h3>
   <br></br>
   <br></br>
-  <p className="title is-size-5"> <font color="#F9C77B"> Usability Experiment </font> </p>
+  <p id="usability_exp" className="title is-size-5"> <font color="#F9C77B"> Usability Experiment </font> </p>
       <br></br>
         <p className="subtitle"> Through an unmoderated usability test, I evaluated how effective my email interface design
 was in communicating relevant information about the email. I created 7 different emails for the experiment using Sketch- 5 emails contained a deceptive phishing link and 2 contained no deceptive links. I framed the usability test as a role-playing activity where participants would assume the role of a character, Sam Minuteman, who works at a fictional consulting company and is evaluating a new email interface based on usability principles.  </p>
@@ -594,7 +597,7 @@ was in communicating relevant information about the email. I created 7 different
 
   <br></br>
 
-  <p className="title is-size-5"> <font color="#F9C77B"> Measuring Success </font> </p>
+  <p id="measure_suc" className="title is-size-5"> <font color="#F9C77B"> Measuring Success </font> </p>
       <br></br>
   <p className="subtitle"> During the usability experiment, I tasked participants with reading the email content and choosing how they would respond to the email. They could use the 5 buttons at the foot of the email, click on buttons/links they found in the email - I was intentionally vague in telling them where they could click because I did not want influence their actions. These are the following metrics I used to evaluate how effective participants were in not getting phished:
 </p>
@@ -641,7 +644,7 @@ participant passes or gets phished</p>
       When I debriefed participants about the usability test’s true intentions, I held an unstructured interview with them where I showed them their results (how many times they were phished). This method gave me qualitative data regarding participants overall thoughts and impressons of the design, and additionally they provided me verbal feedback and talked about their experience with phishing. 
       </p>
           <br></br>
-        <p className="title is-size-5"> <font color="#F9C77B"> Experiment Results </font> </p>
+        <p id="exp_results" className="title is-size-5"> <font color="#F9C77B"> Experiment Results </font> </p>
     <br></br>
            <img src={phishing_sus} alt="phishing_sus"/>
     <br></br>
@@ -681,7 +684,7 @@ not get phished.</p>
       </div>
     </div>
     <br></br>
-     <p className="title is-size-5"> <font color="#F9C77B"> Post Experiment Survey Results </font> </p>
+     <p id="post_survey" className="title is-size-5"> <font color="#F9C77B"> Post Experiment Survey Results </font> </p>
      <br></br>
      <p className="subtitle"> Design Intervention Group - Response Breakdown </p> 
       <img src={design_response} alt="design_intervention_response"/>
@@ -714,7 +717,7 @@ The security indicator could feature an icon in red, and the yellow box can incl
       <p className="subtitle">To legitimize the warnings, the next version could include a statement saying that the messages are
 coming from the email system, so participants do not think it is part of the malicious email.</p>
        <br></br>
-    <p className="title is-size-5"> <font color="#F9C77B"> Reflections and Future Work </font> </p>
+    <p id="reflections" className="title is-size-5"> <font color="#F9C77B"> Reflections and Future Work </font> </p>
        <br></br>
       <p className="subtitle">Overall, the participants believed that the redesigns strike a good balance of not only giving the user control on determining the legitimacy of a link but also
 priming them with unambiguous email system interventions. The usability experiment sheds insight on how people browse emails, and the biggest takeaway is that people do not spend time reading the email content in detail. Overall, the redesign demonstrated that some mediation on the email system’s
@@ -728,6 +731,8 @@ like to explore <strong>how to design security indicators for different types of
 applications and emails viewable on a mobile browser. Exploring these various mediums can
 demonstrate what design elements and psychological phenomena are universally applicable,
 and what varies based on the interface. </p>
+<br></br>
+<br></br>
 <br></br>
 <br></br>
   </div>
