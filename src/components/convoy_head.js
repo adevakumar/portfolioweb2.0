@@ -8,9 +8,9 @@ import "animate.css/animate.min.css";*/
 import walking from '../images/walking.png';
 
 const ConvoyHead = () => (
-<section className="hero is-light is-fullheight">
+<section className="hero is-fullheight">
 	
-  <div className="hero-body">
+  <div id="convoy_head" className="hero-body">
     <div className="container">
     	<div className="columns is-centered">
 				  <div className="columns is-centered">
@@ -20,7 +20,9 @@ const ConvoyHead = () => (
 						</figure>
 					</div>				  
 				  	<div className="column">
-				  		<br></br>
+				  	
+						<br></br>
+
 						<br></br>
 						<br></br>
 						<br></br>
@@ -28,12 +30,12 @@ const ConvoyHead = () => (
 						<br></br>
 						<br></br>
 						
-				      <h1 className="title is-size-2">
+				      <h1 className="title is-size-2 has-text-white">
 				        Convoy
 				      </h1>
 				      <br></br>
-				      <h2 className="subtitle">
-				        An app and wearable ring that helps women who walk alone at night feel safer through community data.
+				      <h2 className="subtitle has-text-white">
+				        An app and wearable ring that helps women who walk alone at night feel safer about their surroundings through community data.
 				      </h2>
     				</div>
 
