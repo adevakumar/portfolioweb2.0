@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Modal from './Modal';
 
 import './style.scss';
 /*import ScrollAnimation from 'react-animate-on-scroll';
@@ -9,6 +8,7 @@ import convoy_plus from '../images/convoy_plus.png';
 import eyewatch_sos from '../images/eyewatch_sos.jpg';
 import noonlight from '../images/noonlight.png';
 import nimb from '../images/nimb.png';
+import comp_analysis from '../images/competitive_analysis_convoy.png';
 
 
 
@@ -254,10 +254,33 @@ const ConvoyBody = () => (
 	<p className="subtitle is-6"> 
     	We created a chart to compare the features offered by each product. By comparing the products, we saw that each product catered to a specific safety need. Therefore, users would have to have multiple products in order to get all the features that they may need.
 	</p>
-	<div id="main">
-	</div>
+	 <br></br>
+	<img src={comp_analysis} alt="competitive_analysis"/>
+		 <br></br>
+	  <p id="solution" className="title is-size-6"> <font color="#000080"> Findings </font> </p>
+	 <br></br>
 
-      </div>
+	  	<p className="subtitle is-6"> 
+	  	Based on the commonly seen features in existing products, we noticed that users wanted the ability to a contact a  source like their family as quickly as possible. One of the biggest issues with current products is that the tolerance for errors is low - if a user accidentally presses a panic button on the device that signals for help, the device does not provide the ability to reverse their actions. This fear of making an error causes unneccsary stress to the users, resulting in them not wanting to use the device for protection in unsafe situations. 
+	  </p>
+	  	 <br></br>
+
+	  	 	<p className="subtitle is-6"> 
+	  	 Our team prioritized the following functionalities to include in our solution: </p>
+
+
+	  	<li>1. <font color="#000080"> A seamless and fast connection </font> to contact family and friends, a hotline, and/or police.</li>
+
+		<li>2. <font color="#000080">A map of the surrounding neighborhood </font> to help with navigation and obtain safety information. </li>
+
+		<li>3. <font color="#000080">Feedback to indicate actions are being performed </font> and that the device is responding. </li>
+
+
+
+
+
+
+    </div>
 
     </div>
 
