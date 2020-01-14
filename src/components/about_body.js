@@ -3,7 +3,7 @@ import React from 'react';
 import './style.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
-import anj from '../images/anj.jpg';
+import headshot from '../images/headshot.jpg';
 
 
 
@@ -19,7 +19,7 @@ const AboutBody = () => (
 		  <br></br>
 		  <br></br>
 
-		    <img src={anj} alt="anjali"/>
+		    <img src={headshot} alt="headshot"/>
 		  </div>
 		  <div className="column is-1">
 		  	 &nbsp;

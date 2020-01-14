@@ -6,6 +6,7 @@ import Navbar from './navbar';
 import Footer from './footer';
 import NCRKioskHead from '../components/ncrkiosk_head';
 import NCRKioskBody from '../components/ncrkiosk_body';
+import NCRCallback from '../components/ncr_callback';
 
 
 const NCRKioskLayout = ({ children }) => (
@@ -14,6 +15,7 @@ const NCRKioskLayout = ({ children }) => (
 		<Navbar />
 		<NCRKioskHead />
 		<NCRKioskBody />
+		<NCRCallback />
 
 		<Footer />
 	</div>

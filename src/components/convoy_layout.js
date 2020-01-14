@@ -6,6 +6,8 @@ import Navbar from './navbar';
 import Footer from './footer';
 import ConvoyHead from '../components/convoy_head';
 import ConvoyBody from '../components/convoy_body';
+import ConvoyCallback from '../components/convoy_callback.js';
+
 
 
 const ConvoyLayout = ({ children }) => (
@@ -14,6 +16,7 @@ const ConvoyLayout = ({ children }) => (
 		<Navbar />
 		<ConvoyHead />
 		<ConvoyBody />
+		<ConvoyCallback />
 
 		<Footer />
 	</div>

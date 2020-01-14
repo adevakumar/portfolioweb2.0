@@ -20,6 +20,12 @@ import design_implications_convoy from '../images/design_implications_convoy.png
 import sticky_brainstorming from '../images/sticky_brainstorming.png';
 import creativity_feasibility_convoy from '../images/creativity_feasibility_convoy.png';
 import rideshare_story from '../images/rideshare_story.png';
+import solo from '../images/solo_1.png';
+import duo from '../images/duo_1.png';
+import buddy_screen from '../images/buddy_screen.png';
+import convoy_plus_sketch from '../images/convoy_plus_sketch.png';
+import convoy_rough_sketch from '../images/convoy_rough_sketch.png';
+import narrow_design from '../images/narrow_design.png';
 
 
 
@@ -453,18 +459,67 @@ They are presented below in this table.	</p>
 			<p id="rideshare" className="title is-size-5 has-text-centered"> <font color="#000080"> <i> Idea 1: Rideshare </i> </font> </p>
 			<img src={rideshare_story} alt="rideshare_story" class="center"/>
 			<br></br>
-			<div className="columns">
-		<div className="column">
+			<br></br>
+			
+			<div className="columns is-vcentered">
+				<div className="column is-7">
+						<br></br>
+					<p className="subtitle is-6"> This solution presents users with an application and key fob that can tap into existing transportation to remove themselves from dangerous situations. In the SOLO mode, users can find nearby bikes, rental cars, or scooters to unlock and drive away. In DUO mode, users can find and be directed to a projected meeting spot for pickup by a trusted rideshare service.</p>
+				</div>
+				<div className="column">
+					<img src={solo} alt="solo" height="75%" width="75%"/>
+				</div>
+				<div className="column">
+					<img src={duo} alt="duo" height="75%" width="75%"/>
+
+				</div>
+			</div>
+			<br></br>
+			<p id="buddies" className="title is-size-5 has-text-centered"> <font color="#000080"> <i> Idea 2: Walking Buddies </i> </font> </p>
+			<br></br>
+			<div className="columns is-vcentered">
+				<div className="column is-6">
 				<br></br>
-			<p className="subtitle is-5"> This solution presents users with an application and key fob that can tap into existing transportation to remove themselves from dangerous situations. In the SOLO mode, users can find nearby bikes, rental cars, or scooters to unlock and drive away. In DUO mode, users can find and be directed to a projected meeting spot for pickup by a trusted rideshare service.</p>
-		</div>
-		<div className="column">
-			<img src={survey_contact} alt="survey_contact"/>
+					<p className="subtitle is-6"> This solution is a location-based social search app that provides one with walking buddies as they travel to a destination. Through the app, one can identify nearby groups led by a walking leader, schedule walking trips in advance, and meet new friends as they walk to common destinations.</p>
+				</div>
+				<div className="column">
+					<img src={buddy_screen} alt="buddy_screen" height="80%" width="80%"/>
+				</div>
+			</div>
+			<br></br>
+			<p id="buddies" className="title is-size-5 has-text-centered"> <font color="#000080"> <i> Idea 3: Crime Data + Wearable </i> </font> </p>
+			<br></br>
+			<div className="columns is-vcentered">
+				<div className="column is-6">
 				<br></br>
-			<p className="subtitle is-6"> <font color="#000080">69.4% </font>of our respondents stated that they would <font color="#000080">not reach out to the police if they needed help.</font> </p>
-		</div>
-	</div>
-	
+					<p className="subtitle is-6"> This solution is a mobile app and a wearable device that tells one the safest route based on data from local police departments. It intends to connect users with the right information as soon as possible. The wearable guides the user to the safest route and enables them to connect with others in emergencies. </p>
+				</div>
+				<div className="column">
+					<img src={convoy_plus_sketch} alt="convoy_plus_sketch" height="80%" width="80%"/>
+					<img src={convoy_rough_sketch} alt="convoy_rough_sketch" height="80%" width="80%"/>
+				</div>
+			</div>
+			<br></br>
+			<p id="narrow_designs" className="title is-size-5"> <font color="#000080"> Narrowing Down the Designs </font> </p>
+			<br></br>
+			<div className="columns is-vcentered">
+				<div className="column is-5">
+					<img src={narrow_design} alt="narrow_design"/>
+				</div>
+				<div className="column">
+				 <p className="subtitle is-6">To decide on a single design idea, we presented these 3 concepts to <font color="#000080"> three users by having them interact with paper prototypes of each design idea </font> in a quick usability interview. The interview had two parts: A feature-scenario matching exercise as well as a think-aloud usability test. 
+				 </p>
+				</div>
+			</div>
+			<br></br>
+			<p className="title is-size-6"> <font color="#000080"> 1.Feature-Scenario Matching </font> </p>
+
+			We came up with four scenarios related to our problem as well as a table with potential features/functionality that our final design could include. As the session moderator, I read these scenarios to participants as they studied this table, and they selected five features that they want to use in that given scenario.
+
+
+
+		
+			
 
 
 
