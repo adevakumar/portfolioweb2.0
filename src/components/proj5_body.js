@@ -197,10 +197,9 @@ We aimed to not dilute our content so users can easily find relevant content. We
 We had the wonderful opportunity of pitching our startup idea to Entrepreneurs in Residence at UMass Amherst. To learn more about Mastree's progress, please check out our marketing brochure and final pitch deck used for our startup pitch. 
  </p>
 
- <article className="media center">
+  <div className="buttons is-centered">
 
-      
-                <a className="button is-dark is-padded" href="https://drive.google.com/file/d/1FPWuO2rQxJPgDADI_LVNb7hMSZbGd5Ux/view?usp=sharing/" target="_blank" >View Pitch Deck</a>
+      <a className="button is-dark is-padded" href="https://drive.google.com/file/d/1FPWuO2rQxJPgDADI_LVNb7hMSZbGd5Ux/view?usp=sharing/" target="_blank" >View Pitch Deck</a>
 
 
 
@@ -211,7 +210,7 @@ We had the wonderful opportunity of pitching our startup idea to Entrepreneurs i
 
         <br></br>
         <br></br>
-    </article>
+        </div>
 
   </div>
 <br></br>

@@ -515,8 +515,15 @@ They are presented below in this table.	</p>
 			<p className="title is-size-6"> <font color="#000080"> 1.Feature-Scenario Matching </font> </p>
 
 			We came up with four scenarios related to our problem as well as a table with potential features/functionality that our final design could include. As the session moderator, I read these scenarios to participants as they studied this table, and they selected five features that they want to use in that given scenario.
-
-
+            <br></br>
+                  <br></br>
+      <div className="buttons is-centered">
+        <button className="button is-light">
+        <a href="https://drive.google.com/file/d/1CKANqUh7OLfiQ8uHJqhegy-SoKYLPCYP/view?usp=sharing"> View Detailed Scenarios/Features</a>
+        </button>
+      </div>
+              
+            <br></br>
 
 		
 			
