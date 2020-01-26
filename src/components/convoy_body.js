@@ -26,6 +26,24 @@ import buddy_screen from '../images/buddy_screen.png';
 import convoy_plus_sketch from '../images/convoy_plus_sketch.png';
 import convoy_rough_sketch from '../images/convoy_rough_sketch.png';
 import narrow_design from '../images/narrow_design.png';
+import convoy_lowfidelity from '../images/convoy_lowfidelity.png';
+import convoy_it1 from '../images/convoy_it1.png';
+import convoyplus_1 from '../images/convoyplus_1.png';
+import convoy_playdo from '../images/convoy_playdo.png';
+import convoy_onboarding from '../images/convoy_onboard.png';
+import convoy_safety from '../images/convoy_safety.png';
+import convoy_neighborhood from '../images/convoy_neighborhood.png';
+import convoy_news from '../images/convoy_news.png';
+import convoy_directions from '../images/convoy_directions.png';
+import convoy_pairing from '../images/convoy_pairing.png';
+import convoy_plus2 from '../images/convoy_plus2.png';
+import convoy_plus2_pic from '../images/convoy_plus2_pic.png';
+import wearable_tut from '../images/wearable_tut.png';
+import detailed_news from '../images/detailed_news.png';
+import neighborhood_rating from '../images/neighborhood_rating.png';
+import route_changes from '../images/route_changes.png';
+
+
 
 
 
@@ -46,12 +64,16 @@ const ConvoyBody = () => (
              <li><a href="#overview"><strong>1. Overview</strong></a></li>
             <li><a href="#problem"><font color="#F5F5F5">___</font>Problem</a></li>
             <li><a href="#solution"><font color="#F5F5F5">___</font>Solution</a></li>
-            <li><a href="#details"><font color="#F5F5F5">___</font>Details</a></li>
+            <li><a href="#contribution"><font color="#F5F5F5">___</font>Contribution</a></li>
+            <li><a href="#logistics"><font color="#F5F5F5">___</font>Logistics</a></li>
             <li><a href="#process"><font color="#F5F5F5">___</font>Process</a></li>
 
 
-             <li><a href="#research"><strong>2. Research</strong></a></li>
-            <li><a href="#lit_review"><font color="#F5F5F5">___</font>Literature Review</a></li>
+             <li><a href="#gen_research"><strong>2. Generative Research</strong></a></li>
+            <li><a href="#secondary_research"><font color="#F5F5F5">___</font>Secondary Research</a></li>
+            <li><a href="#secondary_research"><font color="#F5F5F5">___</font>Competitive Analysis</a></li>
+            <li><a href="#secondary_research"><font color="#F5F5F5">___</font>Competitive Analysis</a></li>
+
             <li><a href="#understanding_users"><font color="#F5F5F5">___</font>Understanding User Abilities</a></li>
 
             <li><a href="#design"><strong>3. Design</strong></a></li>
@@ -512,9 +534,10 @@ They are presented below in this table.	</p>
 				</div>
 			</div>
 			<br></br>
-			<p className="title is-size-6"> <font color="#000080"> 1.Feature-Scenario Matching </font> </p>
-
+			<p className="title is-size-6"> <font color="#000080"> 1. Feature-Scenario Matching </font> </p>
+			 <p className="subtitle is-6">
 			We came up with four scenarios related to our problem as well as a table with potential features/functionality that our final design could include. As the session moderator, I read these scenarios to participants as they studied this table, and they selected five features that they want to use in that given scenario.
+            </p>
             <br></br>
                   <br></br>
       <div className="buttons is-centered">
@@ -524,24 +547,522 @@ They are presented below in this table.	</p>
       </div>
               
             <br></br>
+            <br></br>
+			<p className="title is-size-6"> <font color="#000080"> Top Findings </font> </p>
 
+            <div className="columns is-vcentered">
+          <div className="column has-text-centered">
+              <div id="convoy_process" className="box">
+                <p className="subtitle is-size-5">
+                 <br></br>
+                                 <font color="white">Location sharing with friends and family</font>
+                                  <br></br>
+                </p>
+              </div>
+          </div>
+          <div className="column has-text-centered">
+              <div id="convoy_process"  className="box">
+                <p className="subtitle is-size-5">
+                 <br></br>
+                 <font color="white">To be able to know safe locations</font>
+                 <br></br>
+                </p>
+              </div>
+          </div>
+          <div className="column has-text-centered">
+              <div id="convoy_process" className="box">
+
+                 <p className="subtitle is-size-5">
+                                            <font color="white">A simple word that activates multiple actions (call contacts/police, sending location)</font>
+
+                </p>
+              </div>
+          </div>
+          </div>
+           <div className="columns is-vcentered">
+              <div className="column has-text-centered">
+              <div id="convoy_process" className="box">
+                 <p className="subtitle is-size-5">
+                 <font color="white">Information about surroundings</font>
+                </p>
+              </div>
+          </div>
+             <div className="column has-text-centered">
+              <div id="convoy_process" className="box">
+                 <p className="subtitle is-size-5">
+                 	    <font color="white">Be near a crowd of people </font>
+
+                </p>
+              </div>
+          </div>
+          </div>
+
+           <br></br>
+			<p className="title is-size-6"> <font color="#000080"> 2. Think-Aloud Usability Testing </font> </p>
+
+ <br></br>
+ 			 <p className="subtitle is-6">
+          Because we had three design ideas, 3 members took charge of presenting each participant with sample tasks for one design idea. The other team member served as a notetaker. The participant responded to each task by using the paper prototype to walk through how they would use the design to accomplish the given task. Because this was a think-aloud, we were able to get their opinions about each design idea, assess their nonverbal cues and immediate reactions to each design. 
+ 			</p>
+  <p className="subtitle is-6">
+          Additionally, we pitched our three ideas to our peers and professors in a poster session to get additional feedback. 
+          </p>
+           <p className="subtitle is-6">
+          As a team, we created a Pros and Cons table to capture other issues and strengths each design idea that were not previously discussed before. 
+          </p>
+          <br></br>
+			<p className="title is-size-6"> <font color="#000080"> Top Findings </font> </p>
+			 <br></br>
+			 insert picture here
+		 <br></br>
+
+	<p className="title is-size-6"> <font color="#000080"> The Final Decisions </font> </p>
+		 <br></br>
+
+		  <p className="subtitle is-6">
+ After hearing the feedback from our users and peers, we decided to move forward with the Crime Data design idea. We renamed the app to be Convoy and the supporting wearable to be Convoy+.
+ </p>
+ <p className="subtitle is-6">
+		The main reasons behind this decision are:
+<br></br>
+<br></br>
+		<li><font color="#000080">Creativity and novel use of a wearable:</font> Wearables are becoming increasingly common in our daily lives and we wanted to practice designing and evaluating such a technology. We felt the problem space of safety and alertness could benefit from such a technology and provide data in a more meaningful way. </li>
+
+		<li><font color="#000080">Leverage existing data:</font> We can use existing crime and neighborhood data to inform our design to ensure the information we provide is more authentic and in line with existing safety ranking mechanisms</li>
+
+		<li><font color="#000080">Real-world implications/familiarity of the concept:</font> Because women are walking in environments filled with distractions, we felt this solution would be the best to work in such circumstances. Additionally, this design utilized familiar concepts regarding finding information about local areas, getting directions, etc. With the wearable, we had room to explore how familiar gestures could be used to convey more complicated actions</li>
+			</p>
+			<br></br>
+		<p className="title is-size-5"> <font color="#000080"> Low Fidelity Flow - Convoy </font> </p>
+		<br></br>
+		<p className="title is-size-6"> <font color="#000080"> Goals </font> </p>
+			<li>Understand primary features and the best way to group them</li>
 		
-			
+		<li>Determine how user will navigate in between features</li>
+		<li>Understand how the wearable may be accessed through the app </li>
+		<br></br>
+		<img src={convoy_lowfidelity} alt="convoy_lowfidelity"/>
+		<br></br>
+		<br></br>
+		<p className="title is-size-5"> <font color="#000080"> Iteration 1 - Convoy </font> </p>
+		<br></br>
+		<p className="title is-size-6"> <font color="#000080"> Goals </font> </p>
+			<li>Add aesthetic elements to design to indicate more complicated functionality and convey the overall message of the design</li>
+		
+		<li>Include all potential screens and more detailed information and features</li>
+		<li>Create a prototype for users to react to the overall design and learn their likes/dislikes, frustrations, information overload</li>
+		<br></br>
+		<img src={convoy_it1} alt="convoy_it1"/>
+		<br></br>
 
+    <br></br>
+    <p className="title is-size-5"> <font color="#000080"> Iteration 1 - Convoy+ </font> </p>
+    <br></br>
 
+		 <div className="columns is-vcentered">
+     <div className ="column is-1">
+      </div>
+		 	<div className ="column is-5">
+		 		<img src={convoyplus_1} alt="convoyplus_1"/>
+		 	</div>
+		 	<div className ="column is-5">
+		 		<img src={convoy_playdo} alt="convoy_playdo"/>
+		 	</div>
+      <div className ="column is-1">
+      </div>
+		 </div>
 
+		<p className="subtitle is-size-6">
+		We orignally imagined Convoy+ to be a wearable ring with a sliding component that users move to send red or yellow emergency alerts and see the corresponding lights. The wearable uses blinking lights and different light patterns to indicate actions have been performed and communication with the user. It also provides haptic and auditory feedback to provide information about destinations, tell users about routes, and deliver other updates. 
+		</p>
 
+    <br></br>
+    <p className="title is-size-5"> <font color="#000080"> Final Prototype - Convoy </font> </p>
+    <br></br>
+    <p className="subtitle is-size-6 has-text-centered">
+    <strong>Key Features and Screens walkthrough</strong>
+    </p>
+     <br></br>
 
+     <div className="columns is-vcentered">
+     <div className ="column is-5">
+     <img src={convoy_onboarding} alt="convoy_onboarding"/>
+      </div>
+      <div className ="column is-1">
+      </div>
+      <div className ="column is-5">
+        
+      <p className="subtitle is-size-6">
+          <strong> Set up Account </strong>
+        </p>
+           <br></br>
+        <p className="subtitle is-size-6">
+        A user can enter their location to see nearby neighborhoods and choose ones she wants to receive more information about.
+        </p>
+       </div>
+     </div>
+ <br></br>
+     <div className="columns is-vcentered">
+     
+      <div className ="column is-4">
+     
+      <p className="subtitle is-size-6">
+           <strong> Customize Safety Preferences </strong>
+        </p>
 
+        <p className="subtitle is-size-6">
+The user can indicate the top attributes of their route that they prioritize for safety and set a bottom limit for route ratings. Additionally, they can add their loved ones to the app and assign when contact should be notified depending on the level of emergency.        </p>
+       </div>
+       <div className ="column">
+        <img src={convoy_safety} alt="convoy_safety"/>
+      </div>
+     </div>
+     <br></br>
+     <div className="columns is-vcentered">
+     
+      <div className ="column is-8">
+     
+      <p className="subtitle is-size-6">
+           <strong> Neighborhood Information and Crime Reports </strong>
+        </p>
+           <br></br>
+          <img src={convoy_neighborhood} alt="convoy_neighborhood"/>        
+       </div>
+        <div className ="column is-1"> </div>
+       <div className ="column">
+       <p className="subtitle is-size-6">
+        
+        Once a user selects a neighborhood, they will see an overall rating of the area as well as specific ratings corresponding to the crime level, lighting conditions, and maintainence of the area. By scrolling, users see pictures of the neighborhood’s streets, reviews left by people living in that neighborhood, and any latest news stories occuring in that neighborhood.
+        </p>
+      <br></br>
+        <p className="subtitle is-size-6">
+          The lighting and maintainence score is compiled from local reviews. However, the crime rating comes from local police data and the user can see multiple breakdowns and representations of the crime data to see the top crimes in the neighborhood, the crime evolution, and how that neighborhood compares to other parts of Atlanta.  
+            </p>
+
+      </div>
+     </div>
+
+     <div className="columns is-vcentered">
+     <div className ="column">
+     <p className="subtitle is-size-6">
+           <strong> News Stories </strong>
+        </p>
+        <br></br>
+        <img src={convoy_news} alt="convoy_news"/>
+      </div>
+
+      <div className ="column is-7">
+      
+        <p className="subtitle is-size-6">
+Users can also see news reports and crime stories for neighborhoods they subscribe to. By clicking on a news story card, they are redirected to a view that shows the exact location and a brief description of the incident, as well as trending updates if applicable.       
+       </p>
+ </div>
+     </div>
+     <br></br>
+
+     <div className="columns is-vcentered">
+     <div className ="column is-4">
+     <p className="subtitle is-size-6">
+           <strong> Directions </strong>
+        </p>
+        <br></br>
+        <p className="subtitle is-size-6">
+          Convoy will also show users the overall rating of the route, how far they will have to walk, how long it will take, and the time that they will arrive. If users press the “Directions“ button, they will be given directions to the route they selected. The wearable, Convoy+, can be paired and give haptic feedback directions. 
+       </p>
+      </div>
+
+      <div className ="column is-8">
+          <img src={convoy_directions} alt="convoy_directions"/>
+      </div>
+     </div>
+     <br></br>
+
+     <div className="columns is-vcentered">
+     <div className ="column is-8">
+     <p className="subtitle is-size-6">
+           <strong> Pairing </strong>
+        </p>
+        <br></br>
+          <img src={convoy_pairing} alt="convoy_pairing"/>
+      </div>
+
+      <div className ="column is-4">
+         <p className="subtitle is-size-6">
+        Users can pair their Convoy app with Convoy+ to   be guided during their walking trip. Convoy+ will provide haptic and audio feedback about the walking trip so users do not need to look at their phone as they walk.         </p>
+      </div>
+     </div>
+     <br></br>
+     <br></br>
+    <p className="title is-size-5"> <font color="#000080"> Final Design - Convoy+ </font> </p>
+    <br></br>
+    <div className="columns is-centered is-vcentered">
+    <div className ="column is-1">
+      </div>
+      <div className ="column is-4">
+          <img src={convoy_plus2} alt="convoy_plus2"/>
+      </div>
+      <div className ="column is-4">
+          <img src={convoy_plus2_pic} alt="convoy_plus2_pic"/>
+      </div>
+      <div className ="column is-1">
+      </div>
+    </div>
+
+    <p className="subtitle is-size-6">
+      For iteration 2, we still decided for our wearable to be a <font color="#000080">ring, because it is small and discreet.</font> The ring can be turned to activate alerts because users can perform this action quickly without others noticing. We made the blue band go all the way around the ring in Iteration 2 because in Iteration 1’s concept, users mentioned that the sliding component blocked their view of part of the blue light. Additionally, in iteration 2, we made only one code show up at a time, instead of displaying both the red and yellow codes to reduce confusion over which code was being activated. Users would have to turn the slider 90 degrees to activate the yellow code and the ring would flash a small yellow dot, and they would also have to turn the slider 180 degrees to activate the yellow code and the ring would flash a small red dot. We wanted to make the turning very intentional to reduce chances of accidentally activating the emergency codes. 
+    </p>
+    <br></br>
+        <br></br>
+  <p id="discovery" className="title is-size-5 has-text-centered"> <font color="#000080"> Evaluative Research </font> </p>
+        <br></br>
+    <p className="title is-size-5"> <font color="#000080"> Moderated User Testing </font> </p>
+
+      <p className="subtitle is-size-6">
+      <u>Objectives</u>
+      </p>
+      <p className="subtitle is-size-6">
+        Assess whether users can successfully complete critical tasks using our Convoy prototype.  
+      </p>
+      <p className="subtitle is-size-6">
+      <u>Method Justification</u>
+      </p>
+      <p className="subtitle is-size-6">
+          Allowed our team to evaluate specific user flows of the prototype as they interact with the prototype. Also allowed us to consistently measure users performance and understand their overall feelings related to the prototype’s usability. 
+      </p>
+      <p className="subtitle is-size-6">
+      <u>Method Details</u>
+      </p>
+      <p className="subtitle is-size-6">
+      * 3 participants (all Georgia Tech female graduate students) 
+       </p>
+       <p className="subtitle is-size-6">
+ * Used a Figma Prototype on an iPhone 8
+       </p>
+       <p className="subtitle is-size-6">Team Roles
+        </p>
+        <li>Moderator: Anjali</li>
+        <li>Primary note-taker: Morgan</li>
+        <li>Secondary note-taker / Pictures: Nektar and Yujin </li>
+            <br></br>
+        <p className="subtitle is-size-6">
+          * Sample Tasks
+        </p>
+        <p className="subtitle is-size-6">
+          I phrased some tasks to cause users find information within the app and give an answer to test the prototype’s visibility of information. For example:
+        </p>
+        <li>  Please tell us how much violent crime is occurring on Spring St.? Is it higher or lower than the Georgia average?
+</li>
+        <li>What type of property crime has the highest number of occurrences?</li>
+    <br></br>
+        <p className="subtitle is-size-6">
+          Other tasks simply involved users performing a series of steps. For example:
+  Please show us how you would get walking directions to Midtown.   
+        </p>
+        <p className="subtitle is-size-6">
+      * Success Metrics 
+       </p>
+       <p className="subtitle is-size-6">
+       <li>Task Completion</li>
+        <li>Time to complete</li>
+        <li>Number of clicks</li>
+       </p>
+      <p className="subtitle is-size-6">
+      <u>Procedure</u>
+      </p>
+        <p className="subtitle is-size-6">
+        * I obtained verbal consent from the participant.</p>
+            <p className="subtitle is-size-6">
+        * I asked participants to perform each benchmark task. Notetaker would record the success metrics for each task. We grouped benchmark tasks related to various scenarios/functionalities in the app (ex: we asked several tasks related to the neighborhood functionality and grouped them together in a scenario). 
+        </p>
+       <p className="subtitle is-size-6">
+        * After each scenario, I asked participants to verbally respond to our After Scenario Questionnaire (Likert Scale question formal, 1 = Strongly Disagree, 5 = Strongly Agree)
+       </p>
+           <p className="subtitle is-size-6">
+        <li>How much do you think the system’s behavior matches your expectations?</li>
+         <li>How satisfied are you with the ease of completing the tasks in the process?</li>
+         <li>How satisfied are you with the amount of time it took to complete the tasks in this scenario?</li>
+         <li>How satisfied are you with the support and messages the app gave you when completing the task?</li>
+          </p>
+               <p className="subtitle is-size-6">
+        * After all the tasks and scenarios, I verbally asked participants to respond to the SUS (System Usability Survey), a 10 question form that provides a consistent measure of the overall usability of the system. Participants respond with a number between 1 to 5 (1 = strongly disagree, 5 = strongly agree).
+      </p>
+          <br></br>
+          <p className="subtitle is-size-6"><u>Analysis</u></p>
+          <p className="subtitle is-size-6">
+          I compiled all the user’s performance metrics, After Scenario Questionairre, and SUS scores for each user in an Excel document. I found the averages for the performance metrics and ASQ scores and calculated the SUS scores accordingly. Based on research[1], a SUS score above a 68 would be considered above average and a 80.3 or higher is an A.
+          </p>
+             <br></br>
+        <p className="title is-size-5"> <font color="#000080"> Moderated User Testing - Convoy+ Wearable Ring
+ </font> </p>
+
+      <p className="subtitle is-size-6">
+      <u>Objectives</u>
+      </p>
+      <p className="subtitle is-size-6">
+Assess whether users can successfully complete critical tasks using our Convoy+ prototype.  
+      </p>
+      <p className="subtitle is-size-6">
+      <u>Method Justification</u>
+      </p>
+      <p className="subtitle is-size-6">
+Our team was able to understand how visible our prototype’s affordances were, how natural the interactions felt to our users, and overall how comfortable and usable our wearable system was. 
+      </p>
+      <p className="subtitle is-size-6">
+      <u>Method Details</u>
+      </p>
+      <p className="subtitle is-size-6">
+      * 2 participants (all Georgia Tech female graduate students) 
+       </p>
+       <p className="subtitle is-size-6">
+ * Uaed a 3D printed model of a ring 
+       </p>
+       <p className="subtitle is-size-6">Team Roles
+        </p>
+        <li>Moderator: Nektar, sometimes Anjali</li>
+        <li>Primary note-taker: Morgan</li>
+        <li>Secondary note-taker / Pictures: Anjali and Yujin </li>
+            <br></br>
+        <p className="subtitle is-size-6">
+          * Sample Tasks
+        </p>
+        <p className="subtitle is-size-6">
+          With these tasks, we asked partipants to perform a certain gesture/interaction with the wearable in response to some information we provided them. For example:
+          Please activate the red code on the ring.
+        </p>
+
+    <br></br>
+        <p className="subtitle is-size-6">
+      * Success Metrics 
+       </p>
+       <p className="subtitle is-size-6">
+       <li>Task Completion</li>
+       </p>
+      <p className="subtitle is-size-6">
+      <u>Procedure</u>
+      </p>
+        <p className="subtitle is-size-6">
+        * Facilitator obtained verbal consent from the participant.</p>
+            <p className="subtitle is-size-6">
+        * Facilitator obtained verbal consent from the participant
+        </p>
+       <p className="subtitle is-size-6">
+        * Faciliator provdided a brief tutorial of the wearable ring’s functionality. Facilitator then read each task and notetakers recorded participant’s reactions and other observations. 
+       </p>
+               <p className="subtitle is-size-6">
+        * After all the tasks, the faciliator asked participants a modified After Scenario Questionairre. Participants rated how much they agreed with the statements on a 1 to 5 scale (1 = Strongly Disagree, 5 = Strongly Agree)
+      </p>
+         <p className="subtitle is-size-6">
+  Sample Questions:
+    <li>How natural or unnatural do these interactions feel to you?</li>
+    <li>How aware were you of all the displays and controls on the wearable?</li>
+    <li>Overall, how satisfied are you with the ease of completing tasks?</li>
+</p>
+
+          <br></br>
+          <p className="subtitle is-size-6"><u>Analysis</u></p>
+          <p className="subtitle is-size-6">
+           I compiled the After Scenario Questionairre scores for each user  in an Excel document to find the averages. Additionally, I stepped through the qualitative observation data to determine design implications and improvements. 
+          </p>
+   <br></br>
+    <p className="title is-size-5"> <font color="#000080"> Findings - Design Improvements for Convoy </font> </p>
+         <button className="button is-centered is-link is-light">Average SUS Score: 77 (B)</button>
+      <br></br>
+      <br></br>
+      <p className="title is-size-6"> <font color="#000080"> 1: Added a Wearable Device Tutorial to the Tutorial Screens
+ </font> </p>
+   <br></br>
+       <img src={wearable_tut} alt="wearable_tut" height="75%" width="75%"/>
+  <br></br>
+   <br></br>
+   <p className="subtitle is-size-6">Our users were not clear on how to use the wearable during the testing session. By adding a few tutorial screens in the onbaording section, we believed that this would help our users understand how they could use the wearable if they decided to use it.The tutorials would include animation or videos to demonstrate the gestures and other interactions needed to operate the ring, 
+  </p>
+   <br></br>
+  <p className="title is-size-6"> <font color="#000080"> 2. Added Detailed Information to the News Stories</font>
+  </p>
+  <br></br>
+       <img src={detailed_news} alt="detailed_news" height="75%" width="75%"/>
+   <br></br>
+   <p className="subtitle is-size-6"> Users stated that if they were new to the app, they would not trust the stories within the app without knowing the origin of the news stories. We added the source of the news story at the top of the page. Users also wanted to know more information about the timing of each update and the location of this event in the event timeline. Hence, we added a map of the area and timestamps to the timeline of events to tell show users when the story was last updated. 
+  </p>
+     <br></br>
+    <p className="title is-size-6"> <font color="#000080"> 3. Changed the Neighborhood rating system</font>
+   </p>
+
+   <br></br>
+
+   <div className="columns is-centered is-vcentered">
+      <div className ="column is-8">
+        <img src={neighborhood_rating} alt="neighborhood_rating"/>
+      </div>
+      <div className ="column is-1">
+      </div>
+       <div className ="column is-4">
+       <p className="subtitle is-size-6">
+          <br></br>
+          Users were not sure what the letter ratings represented on the original overall page for Midtown. We decided to move to a rating scale that showed numbers and stars. We did this because our users stated that they would prefer to see numbers. We added the stars because we believe that the visual representation of ratings would also be helpful to users.
+         </p>
+      </div>
+    </div>
+
+       <br></br>
+
+    <p className="title is-size-6"> <font color="#000080"> 4. Changed the Routes section</font>
+</p>   
+
+   <div className="columns is-centered is-vcentered">
+      <div className ="column is-4">
+         <p className="subtitle is-size-6">
+Users stated that they did not understand what the Bluetooth symbol in iteration 1 of the route meant, so we changed the wording to explicity say Convoy+. This change will help users understand how exactly to send their route to the wearable. The map in iteration 1 seemed to be unclear and hard to read for our users, so we replaced the map with a detailed view that would be easier for users to read. Finally, because we switched the ratings to a numerical scale out of 5, we also changed the ratings here in the routes section of the app to show the same numerical ratings out of 5. We wanted to keep ratings on these pages so users could understand how safe each route option was.
+         </p>
+      </div>
+    <div className ="column is-8">
+       <img src={route_changes} alt="route_changes"/>
+      </div>
+      </div>
+
+   <p className="title is-size-5"> <font color="#000080"> Findings - Design Improvements for Convoy </font></p>
+     <br></br>
+      <p className="subtitle is-size-6">
+      1. Make the codes harder to activate 
+      </p>
+      <br></br>
+      <p className="subtitle is-size-6">
+      Users thought that the turning motion needed to activate the yellow and red codes of the wearable was very easy. They did not want to accidentally activate the codes if they happened to be fidgeting with the ring.  Our change is that users turn the ring 90 degrees once and then hold it there until they feel a click and see visual feedback that the yellow code on the ring had been activated. Users would turn the ring 180 degrees once and then hold it there until they feel haptic feedback and see visual feedback that red code on the ring had been activated. We do not want the codes to be accidentally activated, because this was an issue with other safety wearable devices that we have researched.
+      </p>
+      <br></br>
+     <p className="title is-size-5"> <font color="#000080"> Future Work </font></p>
+    <br></br>
+    <p className="subtitle is-size-6"> <font color="#000080"> We received a lot of amazing feedback on our solution at the end of the semester. With more time, these are the areas I’d love to explore to improve Convoy and Convoy+  </font>
+        </p>
+        <br></br>
+        <p className="subtitle is-size-6"> 1. Add triggers to activate voice commands in Convoy+
+        </p>
+        <p className="subtitle is-size-6"> 
+        Users thought the speech part of using the wearable seemed very familiar to voice assistants like Alexa. However, users wanted a voice trigger instead of having to tap the ring. We would implement a voice trigger such as “Hey Convoy+” to then activate the voice commands for users. We would make this change because if users were, for some reason, unable to touch their ring, they would still be able to alert friends, family, or law enforcement very quickly.
+        </p>
+          <br></br>
+        <p className="subtitle is-size-6"> 2. Reduce the length of the Onboarding Process
+        </p>
+        <p className="subtitle is-size-6"> 
+        When walking through the onboarding in our user tests, our users pointed out that the onboarding process was very long. They said that they would skip this process if they were to download the app. Since this app includes new functions that users are unfamiliar with, many of the tutorial and onboarding screens are important to help users know what the app is, what the wearable is, and how they interact with both. We realize that many of the steps in the tutorial and onboarding could be integrated within the app. 
+        </p>
+                  <br></br>
+        <p className="subtitle is-size-6"> 3. Layer Information differently within the crime reports feature
+        </p>
+        <p className="subtitle is-size-6"> 
+          Users commented that they felt there was too much data given to them on the crime reports page of the app. Users only wanted to see high-level information first, and they wanted options to view more detailed information if they truly wanted it. The change we would make here would be to layer the more detailed information on a page after the map and weekly summary given to users on the overall crime page. The annual and yearly crimes would be moved off of the main overall crime page. Users would see summaries of overall crime information for the week, and then they would click “see more” to see more detailed information and graphs about crime throughout the month, year, or twenty years. We believe that this change would help reduce the cognitive load for our users. It would also be easier for them to get the quick live and weekly information that they wanted, while also being given a choice to find out more detailed information about crime.
+          </p>
+           <br></br>
+       <p className="subtitle is-size-6"> 4. Test with non-Georgia Tech individuals (a more diverse user group)  
+       </p>
+
+             <br></br>
+                      <br></br>
 
     </div>
-    </div>
-
 
 </div>
-
-
-  	
+</div>
 
 );
 export default ConvoyBody;

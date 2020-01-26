@@ -100,8 +100,11 @@ const Midsection = () => (
 							</div>
 							</div>		
 							<div className="column is-5">
-							<Link to="/ncrkiosk/">
+								<a href="https://docs.google.com/presentation/d/1Bsm7aVCiUzOdZ2juahhC-XD1TkLFMoTs0ggFUFlolMw/edit?usp=sharing">
+
 								<Box className="box">
+
+
 									<div class="card">
 										<div class="card-image">
 									    <figure class="image is-centered">
@@ -114,8 +117,11 @@ const Midsection = () => (
 									    <p>Imagining a more accessible kiosk experience for visually impaired users.</p>
 							      	</div>
 						      	</div>
+						      	 
 						      </Box>
-			     			</Link>
+						       </a>
+
+			     
 					
 							
 							</div>	
