@@ -71,24 +71,34 @@ const ConvoyBody = () => (
 
              <li><a href="#gen_research"><strong>2. Generative Research</strong></a></li>
             <li><a href="#secondary_research"><font color="#F5F5F5">___</font>Secondary Research</a></li>
-            <li><a href="#secondary_research"><font color="#F5F5F5">___</font>Competitive Analysis</a></li>
-            <li><a href="#secondary_research"><font color="#F5F5F5">___</font>Competitive Analysis</a></li>
-
-            <li><a href="#understanding_users"><font color="#F5F5F5">___</font>Understanding User Abilities</a></li>
+            <li><a href="#comp_analysis"><font color="#F5F5F5">___</font>Competitive Analysis</a></li>
+            <li><a href="#discovery_interviews"><font color="#F5F5F5">___</font>Discovery Interviews</a></li>
+            <li><a href="#affinity_mapping"><font color="#F5F5F5">___</font>Affinity Mapping</a></li>
+            <li><a href="#survey"><font color="#F5F5F5">___</font>Survey</a></li>
+            <li><a href="#task_analysis"><font color="#F5F5F5">___</font>Task Analysis</a></li>
+            <li><a href="#design_implications"><font color="#F5F5F5">___</font>Design Implications</a></li>
+            <li><a href="#refined_statement"><font color="#F5F5F5">___</font>Refined Problem Statement</a></li>
 
             <li><a href="#design"><strong>3. Design</strong></a></li>
-        <li><a href="#design_goals"><font color="#F5F5F5">___</font>Design Goals</a></li>
-            <li><a href="#design_flowchart"><font color="#F5F5F5">___</font>Design Flowchart</a></li>
-            <li><a href="#low_fi"><font color="#F5F5F5">___</font>Low Fidelity Prototype</a></li>
-            <li><a href="#high_fi"><font color="#F5F5F5">___</font>High Fidelity Design</a></li>
-            
-            <li><a href="#evaluation"><strong>4. Evaluation</strong></a></li>
-            <li><a href="#usability_exp"><font color="#F5F5F5">___</font>Usability Experiment</a></li>
-            <li><a href="#measure_suc"><font color="#F5F5F5">___</font>Measuring Success</a></li>
-            <li><a href="#exp_results"><font color="#F5F5F5">___</font>Experiment Results</a></li>
-            <li><a href="#post_survey"><font color="#F5F5F5">___</font>Post Experiment Survey</a></li>
-            <li><a href="#feedback"><font color="#F5F5F5">___</font>Design Feedback and Suggestions </a></li>
-            <li><a href="#reflections"><font color="#F5F5F5">___</font>Reflections</a></li>
+            <li><a href="#informed_brainstorming"><font color="#F5F5F5">___</font>Informed Brainstorming</a></li>
+            <li><a href="#divergent_solutions"><font color="#F5F5F5">___</font>Divergent Solutions</a></li>
+            <li><a href="#rideshare"><font color="#F5F5F5">___</font>Ridesharing</a></li>
+            <li><a href="#buddies"><font color="#F5F5F5">___</font>Walking Buddies</a></li>
+            <li><a href="#crime"><font color="#F5F5F5">___</font>Crime Data</a></li>
+
+            <li><a href="#narrow_design"><font color="#F5F5F5">___</font>Narrowing Down the Designs</a></li>
+            <li><a href="#low_fidelity"><font color="#F5F5F5">___</font>Low Fidelity Flow - Convoy</a></li>
+            <li><a href="#iteration_1_convoy"><font color="#F5F5F5">___</font>Iteration 1 - Convoy</a></li>
+            <li><a href="#iteration_1_convoyplus"><font color="#F5F5F5">___</font>Iteration 1 - Convoy+</a></li>
+            <li><a href="#final_prototype_convoy"><font color="#F5F5F5">___</font>Final Prototype - Convoy</a></li>
+            <li><a href="#final_design_convoyplus"><font color="#F5F5F5">___</font>Final Design - Convoy+</a></li>
+
+            <li><a href="#evaluation"><strong>4. Evaluative Research</strong></a></li>
+            <li><a href="#moderated_usertesting"><font color="#F5F5F5">___</font>Moderated User Testing</a></li>
+            <li><a href="#moderated_usertesting_convoyplus"><font color="#F5F5F5">___</font>Moderated User Testing - Convoy+</a></li>
+            <li><a href="#findings_design"><font color="#F5F5F5">___</font>Findings - Design Improvements Convoy</a></li>
+            <li><a href="#findings_convoyplus"><font color="#F5F5F5">___</font>Findings - Design Improvements Convoy+</a></li>
+            <li><a href="#future_work"><font color="#F5F5F5">___</font>Future Work</a></li>
           </ul>
           <br></br>
         </div>
@@ -142,7 +152,7 @@ const ConvoyBody = () => (
 
   <br></br>
 
-   <p id="details" className="title is-size-5"> <font color="#000080"> Contribution </font> </p>
+   <p id="contribution" className="title is-size-5"> <font color="#000080"> Contribution </font> </p>
   <br></br>
     	<p className="subtitle is-6"> As the <strong> <font color="#000080"> lead UX researcher</font></strong>, I designed and created our interview protocol and survey, recruited participants and conducted interviews, identified relevant evaluation metrics for Convoy and Convoy+, and led Convoy’s usability testing. I additionally aided in the creation of concept sketches, wireframes and the information architecture.  
 </p>
@@ -152,7 +162,7 @@ const ConvoyBody = () => (
   <br></br>
 
 
-  <p id="details" className="title is-size-5"> <font color="#000080"> Logistics </font> </p>
+  <p id="logistics" className="title is-size-5"> <font color="#000080"> Logistics </font> </p>
 
   <nav className="level">
   <div className="level-item">
@@ -198,7 +208,7 @@ const ConvoyBody = () => (
     <div className="columns">
           <div className="column">
               <div id="convoy_process" className="box">
-                <p className="title is-size-5"> <font color="white"> 1. Generative Research </font> </p>
+                <p id="gen_research" className="title is-size-5"> <font color="white"> 1. Generative Research </font> </p>
                 <p>
                  <font color="white">Secondary Research</font>
                    <br></br>
@@ -251,11 +261,11 @@ const ConvoyBody = () => (
           </div>
   <br></br>
     <br></br>
-  <h3 id="research" className= "title is-size-4"> 
+  <h3 id="gen_research" className= "title is-size-4"> 
   <font color="#000080">
   Generative Research </font></h3>
     <br></br>
-  <p id="secondary" className="title is-size-5"> <font color="#000080"> Secondary Research </font> </p>
+  <p id="secondary_research" className="title is-size-5"> <font color="#000080"> Secondary Research </font> </p>
   <br></br>
     <p className="subtitle is-6"> Goals:</p>
     <li className="subtitle is-6">Identify which demographic group experiences feelings of insecurity and unsafety while walking alone</li>
@@ -268,7 +278,7 @@ const ConvoyBody = () => (
 
   <br></br>
 
-  <p id="competitive_analysis" className="title is-size-5"> <font color="#000080"> Competitive Analysis </font> </p>
+  <p id="comp_analysis" className="title is-size-5"> <font color="#000080"> Competitive Analysis </font> </p>
   <br></br>
 
     <p className="subtitle is-6"> After understanding our problem space, our team studied safety applications and wearable technology aimed at keeping women safe. We wanted to understand what products on the market were offering and areas they could be improved. 
@@ -318,7 +328,7 @@ const ConvoyBody = () => (
 		<br></br>
 		<br></br>
 
-	<p id="discovery" className="title is-size-5"> <font color="#000080"> Discovery Interviews </font> </p>
+	<p id="discovery_interviews" className="title is-size-5"> <font color="#000080"> Discovery Interviews </font> </p>
 		<br></br>
 		<img src={discovery_interview} alt="discovery_interview" className="center"/>
 		<br></br>
@@ -348,7 +358,7 @@ const ConvoyBody = () => (
 	<p className="subtitle is-6 has-text-centered"> <i> Sample Written Answers </i> </p>
 	<br></br>
 
-	<p id="discovery" className="title is-size-5"> <font color="#000080"> Affinity Mapping </font> </p>
+	<p id="affinity_mapping" className="title is-size-5"> <font color="#000080"> Affinity Mapping </font> </p>
 	<br></br>
 	<p className="subtitle is-6">
 		To analyze our findings, the team built an affinity map to quickly sift through qualitative findings before jumping to solutions. We grouped related notes and created a hierarchy with 5 major themes - <font color="#000080"> News/Media, People's Feelings, Infrastructure, Staying Alert, and Familiarity with Surroundings.</font> </p>
@@ -364,7 +374,7 @@ const ConvoyBody = () => (
 	<ul>5. <font color="#000080">Users feel safer walking with a buddy. </font> </ul>
 	<ul>6. <font color="#000080">Media and external rumors shape the perception of how safe an area is. </font> </ul>
 	<br></br>
-		<p id="discovery" className="title is-size-5"> <font color="#000080"> Survey </font> </p>
+		<p id="survey" className="title is-size-5"> <font color="#000080"> Survey </font> </p>
 	<p className="subtitle is-6">
 	We administered a follow-up survey to obtain quantitative data and compare and contrast the survey answers with the information our participants shared verbally during the interview. 
 	</p>
@@ -421,7 +431,7 @@ const ConvoyBody = () => (
 	</div>
 			<br></br>
 
-	<p id="discovery" className="title is-size-5"> <font color="#000080"> Task Analysis </font> </p>
+	<p id="task_analysis" className="title is-size-5"> <font color="#000080"> Task Analysis </font> </p>
 
 	<p className="subtitle is-6">From the interview and survey data, I created task analysis diagrams to represent the various scenarios that involve women walking alone at night. The task analysis helped us identify all the smaller actions users engage in as they begin walking. As they walk in an urban environment, they experience many sounds and sights and need a solution that does not distract them from their surrounding awareness. We initially found it difficult to break down a vague task like this, but we soon were able to identify a pattern among the tasks that our users followed depending on the context. 
 	</p>
@@ -460,9 +470,9 @@ They are presented below in this table.	</p>
 </i> 
     </p>
 <br></br><br></br>
-      <h3 id="overview" className= "title is-size-4"> <font color="#000080">Design </font></h3>
+      <h3 id="design" className= "title is-size-4"> <font color="#000080">Design </font></h3>
       <br></br>
-      	<p id="discovery" className="title is-size-5"> <font color="#000080"> Informed Brainstorming </font> </p>
+      	<p id="informed_brainstorming" className="title is-size-5"> <font color="#000080"> Informed Brainstorming </font> </p>
       			<img src={sticky_brainstorming} alt="sticky_brainstorming" className="center"/>
       			 <br></br>
       		<p className="subtitle is-6">Our refined problem statement and exploratory user research enabled our team to conduct an informed brainstroming session to generate solutions. As a team, we wrote potential ideas on sticky notes. We created a Creativity vs Feasbility chart which enabled us to categorize each idea on a uniform scale. 
@@ -509,7 +519,7 @@ They are presented below in this table.	</p>
 				</div>
 			</div>
 			<br></br>
-			<p id="buddies" className="title is-size-5 has-text-centered"> <font color="#000080"> <i> Idea 3: Crime Data + Wearable </i> </font> </p>
+			<p id="crime" className="title is-size-5 has-text-centered"> <font color="#000080"> <i> Idea 3: Crime Data + Wearable </i> </font> </p>
 			<br></br>
 			<div className="columns is-vcentered">
 				<div className="column is-6">
@@ -522,7 +532,7 @@ They are presented below in this table.	</p>
 				</div>
 			</div>
 			<br></br>
-			<p id="narrow_designs" className="title is-size-5"> <font color="#000080"> Narrowing Down the Designs </font> </p>
+			<p id="narrow_design" className="title is-size-5"> <font color="#000080"> Narrowing Down the Designs </font> </p>
 			<br></br>
 			<div className="columns is-vcentered">
 				<div className="column is-5">
@@ -627,13 +637,13 @@ They are presented below in this table.	</p>
 <br></br>
 <br></br>
 		<li><font color="#000080">Creativity and novel use of a wearable:</font> Wearables are becoming increasingly common in our daily lives and we wanted to practice designing and evaluating such a technology. We felt the problem space of safety and alertness could benefit from such a technology and provide data in a more meaningful way. </li>
-
+<br></br>
 		<li><font color="#000080">Leverage existing data:</font> We can use existing crime and neighborhood data to inform our design to ensure the information we provide is more authentic and in line with existing safety ranking mechanisms</li>
-
+<br></br>
 		<li><font color="#000080">Real-world implications/familiarity of the concept:</font> Because women are walking in environments filled with distractions, we felt this solution would be the best to work in such circumstances. Additionally, this design utilized familiar concepts regarding finding information about local areas, getting directions, etc. With the wearable, we had room to explore how familiar gestures could be used to convey more complicated actions</li>
 			</p>
 			<br></br>
-		<p className="title is-size-5"> <font color="#000080"> Low Fidelity Flow - Convoy </font> </p>
+		<p id = "low_fidelity" className="title is-size-5"> <font color="#000080"> Low Fidelity Flow - Convoy </font> </p>
 		<br></br>
 		<p className="title is-size-6"> <font color="#000080"> Goals </font> </p>
 			<li>Understand primary features and the best way to group them</li>
@@ -644,7 +654,7 @@ They are presented below in this table.	</p>
 		<img src={convoy_lowfidelity} alt="convoy_lowfidelity"/>
 		<br></br>
 		<br></br>
-		<p className="title is-size-5"> <font color="#000080"> Iteration 1 - Convoy </font> </p>
+		<p id="#iteration_1_convoy" className="title is-size-5"> <font color="#000080"> Iteration 1 - Convoy </font> </p>
 		<br></br>
 		<p className="title is-size-6"> <font color="#000080"> Goals </font> </p>
 			<li>Add aesthetic elements to design to indicate more complicated functionality and convey the overall message of the design</li>
@@ -656,7 +666,7 @@ They are presented below in this table.	</p>
 		<br></br>
 
     <br></br>
-    <p className="title is-size-5"> <font color="#000080"> Iteration 1 - Convoy+ </font> </p>
+    <p id ="iteration_1_convoyplus" className="title is-size-5"> <font color="#000080"> Iteration 1 - Convoy+ </font> </p>
     <br></br>
 
 		 <div className="columns is-vcentered">
@@ -677,7 +687,7 @@ They are presented below in this table.	</p>
 		</p>
 
     <br></br>
-    <p className="title is-size-5"> <font color="#000080"> Final Prototype - Convoy </font> </p>
+    <p id = "final_prototype_convoy" className="title is-size-5"> <font color="#000080"> Final Prototype - Convoy </font> </p>
     <br></br>
     <p className="subtitle is-size-6 has-text-centered">
     <strong>Key Features and Screens walkthrough</strong>
@@ -788,12 +798,12 @@ Users can also see news reports and crime stories for neighborhoods they subscri
 
       <div className ="column is-4">
          <p className="subtitle is-size-6">
-        Users can pair their Convoy app with Convoy+ to   be guided during their walking trip. Convoy+ will provide haptic and audio feedback about the walking trip so users do not need to look at their phone as they walk.         </p>
+        Users can pair their Convoy app with Convoy+ to be guided during their walking trip. Convoy+ will provide haptic and audio feedback about the walking trip so users do not need to look at their phone as they walk.         </p>
       </div>
      </div>
      <br></br>
      <br></br>
-    <p className="title is-size-5"> <font color="#000080"> Final Design - Convoy+ </font> </p>
+    <p id = "final_design_convoyplus" className="title is-size-5"> <font color="#000080"> Final Design - Convoy+ </font> </p>
     <br></br>
     <div className="columns is-centered is-vcentered">
     <div className ="column is-1">
@@ -813,9 +823,9 @@ Users can also see news reports and crime stories for neighborhoods they subscri
     </p>
     <br></br>
         <br></br>
-  <p id="discovery" className="title is-size-5 has-text-centered"> <font color="#000080"> Evaluative Research </font> </p>
+  <p id="evaluation" className="title is-size-5 has-text-centered"> <font color="#000080"> Evaluative Research </font> </p>
         <br></br>
-    <p className="title is-size-5"> <font color="#000080"> Moderated User Testing </font> </p>
+    <p id="moderated_usertesting" className="title is-size-5"> <font color="#000080"> Moderated User Testing </font> </p>
 
       <p className="subtitle is-size-6">
       <u>Objectives</u>
@@ -892,7 +902,7 @@ Users can also see news reports and crime stories for neighborhoods they subscri
           I compiled all the user’s performance metrics, After Scenario Questionairre, and SUS scores for each user in an Excel document. I found the averages for the performance metrics and ASQ scores and calculated the SUS scores accordingly. Based on research[1], a SUS score above a 68 would be considered above average and a 80.3 or higher is an A.
           </p>
              <br></br>
-        <p className="title is-size-5"> <font color="#000080"> Moderated User Testing - Convoy+ Wearable Ring
+        <p id="moderated_usertesting_convoyplus" className="title is-size-5"> <font color="#000080"> Moderated User Testing - Convoy+ Wearable Ring
  </font> </p>
 
       <p className="subtitle is-size-6">
@@ -964,7 +974,7 @@ Our team was able to understand how visible our prototype’s affordances were, 
            I compiled the After Scenario Questionairre scores for each user  in an Excel document to find the averages. Additionally, I stepped through the qualitative observation data to determine design implications and improvements. 
           </p>
    <br></br>
-    <p className="title is-size-5"> <font color="#000080"> Findings - Design Improvements for Convoy </font> </p>
+    <p id="findings_design" className="title is-size-5"> <font color="#000080"> Findings - Design Improvements for Convoy </font> </p>
          <button className="button is-centered is-link is-light">Average SUS Score: 77 (B)</button>
       <br></br>
       <br></br>
@@ -1020,7 +1030,7 @@ Users stated that they did not understand what the Bluetooth symbol in iteration
       </div>
       </div>
 
-   <p className="title is-size-5"> <font color="#000080"> Findings - Design Improvements for Convoy </font></p>
+   <p id="findings_convoyplus" className="title is-size-5"> <font color="#000080"> Findings - Design Improvements for Convoy+ </font></p>
      <br></br>
       <p className="subtitle is-size-6">
       1. Make the codes harder to activate 
@@ -1030,7 +1040,7 @@ Users stated that they did not understand what the Bluetooth symbol in iteration
       Users thought that the turning motion needed to activate the yellow and red codes of the wearable was very easy. They did not want to accidentally activate the codes if they happened to be fidgeting with the ring.  Our change is that users turn the ring 90 degrees once and then hold it there until they feel a click and see visual feedback that the yellow code on the ring had been activated. Users would turn the ring 180 degrees once and then hold it there until they feel haptic feedback and see visual feedback that red code on the ring had been activated. We do not want the codes to be accidentally activated, because this was an issue with other safety wearable devices that we have researched.
       </p>
       <br></br>
-     <p className="title is-size-5"> <font color="#000080"> Future Work </font></p>
+     <p id = "future_work" className="title is-size-5"> <font color="#000080"> Future Work </font></p>
     <br></br>
     <p className="subtitle is-size-6"> <font color="#000080"> We received a lot of amazing feedback on our solution at the end of the semester. With more time, these are the areas I’d love to explore to improve Convoy and Convoy+  </font>
         </p>

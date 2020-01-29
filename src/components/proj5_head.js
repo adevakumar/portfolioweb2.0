@@ -13,20 +13,14 @@ const Proj5Head = () => (
   <div className="hero-body">
     <div className="container">
     	<div className="columns is-centered">
-				  <div className="columns is-centered">
+				  <div className="columns is-centered is-vcentered">
 				  	<div className="column">
 					  	<figure id= "projectpic" className="image is-centered">
 							<img src={mastree} alt="mastree"/>
 						</figure>
 					</div>				  
 				  	<div className="column">
-				  		<br></br>
-						<br></br>
-						<br></br>
-						<br></br>
-						<br></br>
-						<br></br>
-						
+				  		
 				      <h1 className="title is-size-2">
 				        Mastree
 				      </h1>

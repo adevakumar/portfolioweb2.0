@@ -81,6 +81,8 @@ p::before {
   position: sticky;
   top: 9%;
   background-color:#F5F5F5;
+	max-height: calc(100vh - 5rem);
+	overflow-y: auto;
 }
 
 

@@ -42,7 +42,7 @@ const Header = ({ siteTitle }) => (
 
 				  <span>
 
-				<a href="https://drive.google.com/file/d/1eICW0UyD7Asz72hINsUfdVtM_cpLMVeO/view?usp=sharing" target="_blank" className="button is-outlined is-link">View My Resume</a>
+				<a href="https://drive.google.com/file/d/1FOwnBQCwFSCc_xC3Opi9pISEH4srIosl/view?usp=sharing" target="_blank" className="button is-outlined is-link">View My Resume</a>
 				</span> 
 				
 				  </div>

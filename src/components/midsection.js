@@ -42,10 +42,10 @@ const Midsection = () => (
  						</figure>
 						<ScrollAnimation animateIn="fadeInLeft">
 							<br></br>
-							<strong> <p className="title is-size-4">Leadership </p> </strong>
+							<strong> <p className="title is-size-4">Communication </p> </strong>
 						</ScrollAnimation>
 						<br></br>
-					    	<p>By working on cross-functional teams and serving as a Computer Science Student Ambassador, I gained confidence in publicly speaking in front of large crowds and small groups, and expressing ideas to a variety of audiences. </p>
+					    	<p>My experience as a Peer Mentor, Computer Science Ambassador, and TA gave me a strong foundation in public speaking and mentorship. Additionally, my interdisciplinary background allows me to relate to Engineers and Designers and consider their needs when making decisions. </p>
 					  	
 					  </div>
 					  <div class="column">
@@ -55,10 +55,12 @@ const Midsection = () => (
 						</figure>
 						<ScrollAnimation animateIn="fadeInLeft">
 							<br></br>
-							<strong> <p className="title is-size-4">Design </p> </strong>
+							<strong> <p className="title is-size-4"> Storytelling with Data </p> </strong>
 						</ScrollAnimation>
 							<br></br>
-					    	<p>I have a keen eye for branding, aesthetics, and consistent components that leverage insights from engineering and psychology to make functional, interactive, and pleasing things. </p>
+					    	<p>I am skilled at understanding and uncovering insights about user behavior from research
+data. More importantly, I know how to communicate these insights and turn them into action
+items that benefit the overall product.</p>
 					  	
 					  </div>
 					  <div class="column">
