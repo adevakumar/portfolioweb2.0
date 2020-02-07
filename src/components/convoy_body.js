@@ -42,6 +42,7 @@ import wearable_tut from '../images/wearable_tut.png';
 import detailed_news from '../images/detailed_news.png';
 import neighborhood_rating from '../images/neighborhood_rating.png';
 import route_changes from '../images/route_changes.png';
+import pros_cons from '../images/pros_cons.png';
 
 
 
@@ -621,9 +622,8 @@ They are presented below in this table.	</p>
           As a team, we created a Pros and Cons table to capture other issues and strengths each design idea that were not previously discussed before. 
           </p>
           <br></br>
-			<p className="title is-size-6"> <font color="#000080"> Top Findings </font> </p>
-			 <br></br>
-			 insert picture here
+								<img src={pros_cons} alt="pros_cons"/>
+
 		 <br></br>
 
 	<p className="title is-size-6"> <font color="#000080"> The Final Decisions </font> </p>
