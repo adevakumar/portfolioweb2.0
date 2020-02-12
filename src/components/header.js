@@ -19,7 +19,11 @@ const Header = ({ siteTitle }) => (
 	<section className="hero white is-fullheight">
 		<Navbar />
 		<div className="hero-body">
+
 			<div className="container center">
+					   <br></br>
+					   		   <br></br>
+					   		   		   <br></br>
 				<div className="columns is-centered">
 				  <div className="columns is-vcentered">
 				  <div className="column is-6">
@@ -32,7 +36,7 @@ const Header = ({ siteTitle }) => (
 Assistant specializing in Human-Computer Interaction. My passion for
 Computing for Good and Psychology drives me to create seamless and
 inclusive experiences.</div>	
-<br></br>
+
 	<div className="subtitle"> 
 I'm currently looking for <strong>UX Research or UX Design Internships</strong>!</div>
 
