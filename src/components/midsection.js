@@ -102,7 +102,7 @@ items that benefit the overall product.</p>
 							</div>
 							</div>		
 							<div className="column is-5">
-								<a href="https://docs.google.com/presentation/d/1Bsm7aVCiUzOdZ2juahhC-XD1TkLFMoTs0ggFUFlolMw/edit?usp=sharing">
+								<a href="https://docs.google.com/presentation/d/1zs0NZi2T33y0XdosLBOfidkqSDRilmhH560JC6uvrSk/edit?usp=sharing" target="_blank">
 
 								<Box className="box">
 

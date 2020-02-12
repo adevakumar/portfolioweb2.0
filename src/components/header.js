@@ -21,35 +21,32 @@ const Header = ({ siteTitle }) => (
 		<div className="hero-body">
 			<div className="container center">
 				<div className="columns is-centered">
-				  <div className="columns is-centered">
+				  <div className="columns is-vcentered">
 				  <div className="column is-6">
-				  <br></br>
-				  <br></br>
-				  <br></br>
-				  <br></br>
-				  <br></br>
-				  <br></br>
-				  <br></br>
-				  <br></br>
-				 
-			
+				  
 				  <ScrollAnimation animateIn="fadeInLeft">
 				  <h1> <strong> Hello, I'm Anjali! </strong> </h1>
 				   <br></br>
 				  </ScrollAnimation>
-					<div className="subtitle"> I’m a UX Designer + Researcher studying Human-Computer Interaction at Georgia Tech.
-					I explore the intersections of HCI, Psychology, and social responsibility to create thoughtful and inclusive experiences. 	</div>	
+					<div className="subtitle"> I am a 1st-year Georgia Tech MS student, Teaching Assistant & Research
+Assistant specializing in Human-Computer Interaction. My passion for
+Computing for Good and Psychology drives me to create seamless and
+inclusive experiences.</div>	
+<br></br>
+	<div className="subtitle"> 
+I'm currently looking for <strong>UX Research or UX Design Internships</strong>!</div>
 
 				  <span>
 
-				<a href="https://drive.google.com/file/d/1FOwnBQCwFSCc_xC3Opi9pISEH4srIosl/view?usp=sharing" target="_blank" className="button is-outlined is-link">View My Resume</a>
+				<a href="https://drive.google.com/file/d/1HG4lqPSG15EkuDVKfd2gpoH_ZjapjYbu/view?usp=sharing" target="_blank" className="button is-outlined is-link">View My Resume</a>
 				</span> 
+								  	<br></br>
+								  	<br></br>
+				<div className="subtitle"> Thanks for stopping by!</div>  	
 				
 				  </div>
+				  <div className="column is-1 is-horizontal-center"> </div>
 				  <div className="column is-5 is-horizontal-center">
-				  	<br></br>
-				  	<br></br>
-				  	<br></br>
 
 				    <img style={{
       width: "100%",
