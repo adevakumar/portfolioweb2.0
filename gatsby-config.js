@@ -3,7 +3,7 @@ module.exports = {
 		title: 'Anjali Devakumar',
 		author: 'Anjali Devakumar',
 		imageUrl: 'https://i.imgur.com/Vz81GEl.png',
-		description: 'A Project to bootstrap your next Gatsby + Bulma site.',
+		description: '1st Year MS-HCI Student at Georgia Tech. Incoming UX Research Intern at Chewy.',
 		keywords: `UX Designer, UX Researcher, UX, Developer, CSS, HTML, JS, Javascript, Gatsby, Bulma Developer, CSS3, HTML5, Seo, Product Design, Research`,
 		github: `https://github.com/adevakumar`,
 		gatsby: 'https://www.gatsbyjs.org/',
