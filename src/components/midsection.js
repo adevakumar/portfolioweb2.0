@@ -96,14 +96,15 @@ items that benefit the overall product.</p>
 						<br></br>
 						<br></br>
 						<div className="columns is-multiline">
-							<div className="column is-1 has-text-white">
+							<div className="column is-3 has-text-white">
 							<div>
 								&nbsp;
 							</div>
 							</div>		
-							<div className="column is-5">
-								<a href="https://docs.google.com/presentation/d/1zs0NZi2T33y0XdosLBOfidkqSDRilmhH560JC6uvrSk/edit?usp=sharing" target="_blank">
+							
 
+							<div className="column is-3">
+								<Link to="/ncrkiosk/">
 								<Box className="box">
 
 
@@ -121,15 +122,12 @@ items that benefit the overall product.</p>
 						      	</div>
 						      	 
 						      </Box>
-						       </a>
+						       </Link>
 
-			     
-					
 							
 							</div>	
 
-
-							<div className="column is-5">
+							<div className="column is-3">
 							<Link to="/convoy/">
 								<Box className="box">
 								<div class="card">
@@ -141,7 +139,7 @@ items that benefit the overall product.</p>
 								<div class="content" id="help">
 						    		<h2>Convoy</h2>
 								    <p className="heading is-size-7"><strong>UX Research, UX Design</strong></p>
-								    <p>Helping women who walk alone at night feel safer through community data.</p>
+								    <p>Using community data to help women walking alone at night feel safer.</p>
 						      </div>
 						      </div>
 						      </Box>
@@ -149,7 +147,7 @@ items that benefit the overall product.</p>
 							
 							</div>
 
-							<div className="column is-1 has-text-white">
+							<div className="column is-2 has-text-white">
 							<div>
 								&nbsp;
 							</div>

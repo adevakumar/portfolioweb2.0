@@ -32,13 +32,13 @@ const Header = ({ siteTitle }) => (
 				  <h1> <strong> Hello, I'm Anjali! </strong> </h1>
 				   <br></br>
 				  </ScrollAnimation>
-					<div className="subtitle"> I am a 1st-year Georgia Tech MS student, Teaching Assistant & Research
+					<div className="subtitle"> I am a 2nd-year Georgia Tech MS student, Teaching Assistant & Research
 Assistant specializing in Human-Computer Interaction. My passion for
 Computing for Good and Psychology drives me to create seamless and
 inclusive experiences.</div>	
 
 	<div className="subtitle"> 
-I'm currently looking for <strong>UX Research or UX Design Internships</strong>!</div>
+I'm currently looking for <strong>UX Research or UX Design Full Time positions</strong>!</div>
 
 				  <span>
 
