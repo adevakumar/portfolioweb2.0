@@ -11,6 +11,11 @@ import mr_merchant from '../images/ncrkiosk/mr_merchant.png';
 import standing_one from '../images/ncrkiosk/standing_one.jpeg';
 import blind_interview from '../images/ncrkiosk/blind_participant.jpg';
 import affinity_map from '../images/ncrkiosk/affinity_map.png';
+import creativity_chart from '../images/ncrkiosk/creativity_chart.png';
+import narrowdown_interview from '../images/ncrkiosk/narrowdown_interview.jpg';
+import idea_1_1 from '../images/ncrkiosk/idea_1_1.jpg';
+import idea_1_2 from '../images/ncrkiosk/idea_1_2.jpg';
+import idea_2 from '../images/ncrkiosk/idea_2.png';
 
 
 const NCRKioskBody = () => (
@@ -320,17 +325,188 @@ const NCRKioskBody = () => (
 <p className="subtitle is-7 has-text-centered"> Link to board: https://miro.com/app/board/o9J_kw-V2-I=/ 
 </p>
 
+<br></br>
 
 <p id="survey" className="title is-size-5"> <font color="#47BO39"> Top Pain Points </font> </p>
  
+<p className="subtitle is-6">From the research conducted, we prioritzed several challenges our target audience had using a self-service kiosk.
+Below are the major pain points experienced by the users that were prioritized for the first iterations. Priority was chosen based on common themes expressed through generative research and feedback from users.</p>
+  <br></br>
+    <div className="columns">
+          <div className="column">
+              <div id="ncr_box" className="box">
+                <p id="gen_research" className="subtitle is-size-6"> <font color="white"> 1. Screen reader audio is not enough to help in navigating the kiosk
+                </font> </p>
+              </div>
+          </div>
+          <div className="column">
+              <div id="ncr_box" className="box">
+                <p id="gen_research" className="subtitle is-size-6"> <font color="white"> 2. Limited feedback does not guide users on actions to perform
+                </font> </p>
+              </div>
+          </div>
+          <div className="column">
+              <div id="ncr_box" className="box">
+                <p id="gen_research" className="subtitle is-size-6"> <font color="white"> 3. Frustrating error-recovery process, often requires external assistance
+                </font> </p>
 
+              </div>
+          </div>
+          </div>
+          <div className="columns">
+          <div className="column">
+              <div id="ncr_box" className="box">
+                <p id="gen_research" className="subtitle is-size-6"> <font color="white"> 4. Text size and color contrast not optimized for visually impaired functioning
+                </font> </p>
+              </div>
+          </div>
+          <div className="column">
+              <div id="ncr_box" className="box">
+                <p id="gen_research" className="subtitle is-size-6"> <font color="white"> 5. Kiosk accessibility features not consistent or familiar with existing accessibility conventions
+                </font> </p>
+              </div>
+          </div>
+          </div>
+  <br></br>
+    <br></br>
 
-
-
-	
-
+<p id="synthesis" className="title is-size-5"> <font color="#47BO39"> Design Implications </font> </p>
+<p className="subtitle is-6">From the pain points, as a team we brainstormed several top needs our design would address to focus our efforts and ensure our design would address these pain points. 
+</p>
 
   <br></br>
+    <div className="columns">
+          <div className="column">
+              <div id="ncr_box" className="box">
+                <p className="subtitle is-size-6"> <font color="white"> Customize the visual elements of the kiosk interface
+
+                </font> </p>
+              </div>
+          </div>
+          <div className="column">
+              <div id="ncr_box" className="box">
+                <p id="gen_research" className="subtitle is-size-6"> <font color="white"> Leverage existing technologies visually impaired individuals utilize
+
+                </font> </p>
+              </div>
+          </div>
+          <div className="column">
+              <div id="ncr_box" className="box">
+                <p id="gen_research" className="subtitle is-size-6"> <font color="white"> Incorporate Universal Design Principles
+                </font> </p>
+
+              </div>
+          </div>
+          </div>
+          <div className="columns">
+          <div className="column">
+              <div id="ncr_box" className="box">
+                <p id="gen_research" className="subtitle is-size-6"> <font color="white"> Ensure users remain in control of actions
+                </font> </p>
+              </div>
+          </div>
+          <div className="column">
+              <div id="ncr_box" className="box">
+                <p id="gen_research" className="subtitle is-size-6"> <font color="white"> Provide various feedback modalities - auditory, visual, etc.
+                </font> </p>
+              </div>
+          </div>
+          </div>
+  <br></br>
+    <br></br>
+        <br></br>
+
+    <h3 id="gen_research" className= "title is-size-4"> 
+  <font color="#47BO39">
+  Design </font></h3>
+    <br></br>
+    <br></br>
+
+  <p id="synthesis" className="title is-size-5"> <font color="#47BO39"> Brainstorming </font> </p>
+    <p className="subtitle is-size-6"> After our initial research activities, we conducted an informed brainstorming session as a team using the pain points and design implications we identified. We timed ourselves and generated ideas freely on sticky notes, and organized the ideas in a Creativity vs. Feasibility matrix to prioritze ideas that were both creative yet realistic in our timeline. </p>
+
+    <br></br>
+    <img src={creativity_chart} alt="creativity_chart"/>
+    <br></br>
+
+  <br></br> 
+ 
+
+    <p id="synthesis" className="title is-size-5"> <font color="#47BO39"> Design Ideation and Feedback</font> </p>
+<p className="subtitle is-size-6"> 
+  After considering the feasibility and creativity of each idea, we narrowed our ideas down to three different potential solutions that could solve our problem.
+As we designed the features, we made sure to refer back to our research questions and implications to make sure the design focused on user needs.
+   </p>
+ <br></br>
+ <p className="subtitle is-size-6"> 
+To evaluate our design directions, we created wireframes and I moderated a usability test with two legally blind users. We identified sample tasks for them to perform with each wireframe and asked them follow-up questions about their experience. 
+  </p>
+
+<br></br>
+
+<p className="subtitle is-size-6"> Below are the three design ideas as well as some feedback we received from our users. </p>
+<br></br>
+<br></br>
+
+<div className="columns">
+          <div className="column is-5">
+                <p className="title is-size-5"> 
+                <br></br>
+                  Idea 1: Customizable Kiosk App - Accessibility Focus </p>
+                  <br></br>
+                <p className="subtitle is-size-6"> A user can tap to pair their phone with the kiosk. They can customize the kiosk according to their phone’s preferred accessibility settings, as well as keep track of items by viewing receipts of their past purchases.  
+                </p>
+          </div>
+          <div className="column is-1">
+
+          </div> 
+          <div className="column is-3">
+              <img src={idea_1_2} alt="idea_1_2"/>
+
+          </div> 
+          <div className="column is-3">
+              <img src={idea_1_1} alt="idea_1_1"/>
+
+          </div> 
+     </div> 
+<br></br>
+<br></br>
+<div className="columns">
+          <div className="column">
+                <p className="title is-size-5"> 
+                <br></br>
+                  Idea 2: AR Store Navigation - Navigate and Identify Items </p>
+                  <br></br>
+                <p className="subtitle is-size-6"> This design idea involved using augmented reality to help users identify store signage and items. It also allows users to scan aisles and sections within aisles in order to identify any needed products and them to their cart.  
+                </p>
+          </div>
+          <div className="column is-7">
+              <img src={idea_2} alt="idea_2"/>
+
+          </div>
+     </div> 
+    <br></br>
+    <br></br>
+
+<div className="columns">
+          <div className="column">
+                <p className="title is-size-5"> 
+                <br></br>
+                  Idea 2: Smart Cart </p>
+                  <br></br>
+                <p className="subtitle is-size-6"> This design idea involved using augmented reality to help users identify store signage and items. It also allows users to scan aisles and sections within aisles in order to identify any needed products and them to their cart.  
+                </p>
+          </div>
+          <div className="column is-7">
+              <img src={idea_2} alt="idea_2"/>
+
+          </div>
+     </div> 
+    <br></br>
+    <br></br>
+
+
+
 
   
 
