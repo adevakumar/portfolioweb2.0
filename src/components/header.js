@@ -16,7 +16,7 @@ import Navbar from './navbar';
 
 
 const Header = ({ siteTitle }) => (
-	<section className="hero white is-fullheight">
+	<section className="hero is-fullheight">
 		<Navbar />
 		<div className="hero-body">
 
@@ -33,12 +33,10 @@ const Header = ({ siteTitle }) => (
 				   <br></br>
 				  </ScrollAnimation>
 					<div className="subtitle"> I am a 2nd-year Georgia Tech MS student, Teaching Assistant & Research
-Assistant specializing in Human-Computer Interaction. My passion for
-Computing for Good and Psychology drives me to create seamless and
-inclusive experiences.</div>	
+Assistant specializing in Human-Computer Interaction. With my background in CS & Psychology, I aim to research and inform inclusive and effective designs that universally help people.</div>	
 
-	<div className="subtitle"> 
-I'm currently looking for <strong>UX Research or UX Design Full Time positions</strong>!</div>
+	<div className="subtitle is-6"> 
+Currently looking for <strong>UX Research or UX Design Full Time positions</strong>!</div>
 
 				  <span>
 

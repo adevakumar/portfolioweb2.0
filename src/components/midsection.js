@@ -96,14 +96,14 @@ items that benefit the overall product.</p>
 						<br></br>
 						<br></br>
 						<div className="columns is-multiline">
-							<div className="column is-3 has-text-white">
+							<div className="column is-2 has-text-white">
 							<div>
 								&nbsp;
 							</div>
 							</div>		
 							
 
-							<div className="column is-3">
+							<div className="column is-4">
 								<Link to="/ncrkiosk/">
 								<Box className="box">
 
@@ -127,7 +127,7 @@ items that benefit the overall product.</p>
 							
 							</div>	
 
-							<div className="column is-3">
+							<div className="column is-4">
 							<Link to="/convoy/">
 								<Box className="box">
 								<div class="card">
