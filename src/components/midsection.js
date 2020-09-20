@@ -26,7 +26,7 @@ const TileItem = props => (
 
 const Midsection = () => (
 	<div>
-	<section className="hero is-medium is-dark is-bold has-text-centered">
+	<section className="hero is-medium is-bold has-text-centered has-text-dark">
 			<div id="skills" className="hero-body">
 				<ScrollAnimation animateIn="fadeIn">
 				<ScrollAnimation animateIn="fadeInDown">

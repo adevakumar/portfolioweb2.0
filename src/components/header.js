@@ -16,7 +16,7 @@ import Navbar from './navbar';
 
 
 const Header = ({ siteTitle }) => (
-	<section className="hero is-fullheight">
+	<section id="header" className="hero success is-fullheight">
 		<Navbar />
 		<div className="hero-body">
 
@@ -29,22 +29,23 @@ const Header = ({ siteTitle }) => (
 				  <div className="column is-6">
 				  
 				  <ScrollAnimation animateIn="fadeInLeft">
-				  <h1> <strong> Hello, I'm Anjali! </strong> </h1>
+				  <h1> <strong>  Hi, I'm Anjali!  </strong> </h1>
 				   <br></br>
+				      <br></br>
 				  </ScrollAnimation>
-					<div className="subtitle"> I am a 2nd-year Georgia Tech MS student, Teaching Assistant & Research
-Assistant specializing in Human-Computer Interaction. With my background in CS & Psychology, I aim to research and inform inclusive and effective designs that universally help people.</div>	
+					<div className="subtitle is-5"> I am a 2nd-year Georgia Tech Master's student, Teaching Assistant & Research
+Assistant specializing in Human-Computer Interaction. With my background in Computer Science & Psychology, I aim to research and inform inclusive and effective designs that universally help people.</div>	
 
-	<div className="subtitle is-6"> 
-Currently looking for <strong>UX Research or UX Design Full Time positions</strong>!</div>
+	<div className="subtitle is-5"> 
+Currently looking for <strong> <font color="#eb3f3b"> UX Research </font> Full Time roles</strong>!</div>
 
 				  <span>
 
-				<a href="https://drive.google.com/file/d/1HG4lqPSG15EkuDVKfd2gpoH_ZjapjYbu/view?usp=sharing" target="_blank" className="button is-outlined is-link">View My Resume</a>
+				<a href="https://drive.google.com/file/d/1HG4lqPSG15EkuDVKfd2gpoH_ZjapjYbu/view?usp=sharing" target="_blank" className="button is-outlined is-danger">View My Resume</a>
 				</span> 
 								  	<br></br>
 								  	<br></br>
-				<div className="subtitle"> Thanks for stopping by!</div>  	
+				<div className="subtitle is-5"> Thanks for stopping by!</div>  	
 				
 				  </div>
 				  <div className="column is-1 is-horizontal-center"> </div>

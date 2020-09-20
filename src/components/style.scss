@@ -15,10 +15,14 @@ padding: 50px;
 
 }
 
-h1 {
-	font-family: 'Gilroy', sans-serif; 
-	font-size: 44px;
+body {
+  font: 400 22px Karla, sans-serif;
 }
+
+h1 {
+	font: 700 44px Rubik, serif;
+}
+
 
 #projectpic {
 	width: 77%;
@@ -37,6 +41,21 @@ h1 {
 	color: #ECE7E3;
 }
 
+#header {
+	background-color: #fbfbff;
+
+}
+
+#skills {
+	background-color: #dae4f2;
+
+}
+
+
+
+#navbarMenuHeroA {
+	background-color: #dae4f2;
+}
 	
 .center {
 	display: flex;
@@ -46,7 +65,7 @@ h1 {
 
 .navbar-item:hover {
     font-weight: bold;
-	text-color: black;
+	color: black;
 }
 
 .footer {
@@ -93,6 +112,7 @@ p::before {
 
 a {
 	border-bottom: none;
+	color: black;
 	}
 
 .is-horizontal-center {
