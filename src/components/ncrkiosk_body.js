@@ -31,6 +31,10 @@ import pairing_kiosk from '../images/ncrkiosk/pairing_kiosk.png';
 import store_select from '../images/ncrkiosk/store_select.png';
 import map from '../images/ncrkiosk/map.png';
 import kiosk_refresh_screens from '../images/ncrkiosk/kiosk_refresh_screens.png';
+import glasses from '../images/ncrkiosk/glasses.jpg';
+import anjali_finaltest from '../images/ncrkiosk/anjali_finaltest.jpg';
+import expert_final from '../images/ncrkiosk/expert_final.jpg';
+import team from '../images/ncrkiosk/team.jpg';
 
 
 const NCRKioskBody = () => (
@@ -47,7 +51,7 @@ const NCRKioskBody = () => (
 		<div className="column is-9">
 
 		<h3 id="overview" className= "title is-size-4"> 
-  <font color="#000080">
+  <font color="#47BO39">
   Overview 
   </font></h3>
   <br></br>
@@ -771,11 +775,126 @@ Our designers created multiple iterations, and tested our idea with our users an
           
      </div> 
     <br></br>
+    <p id="synthesis" className="title is-size-5 has-text-centered"> <font color="#47BO39"> User Testing - Final Prototype </font> </p>
+<br></br>
+<br></br>
+     <p className="subtitle is-size-6">To evaluate our final design, I led user testing with low to no vision users (both real or simulated with visual impairment simulation glasses) and both Accessibility and UX experts. I developed the interview script to include sample tasks and a Wizard of Oz voiceover that would simulate the voice feedback the kiosk would give a user. 
+</p>
+  <br></br>
+<button className="button is-light is-medium">
+        <a href=''> View Tasks and Script</a>
+        </button>
+
+  <br></br>
+  <br></br>
+    <br></br>
+  <div className="columns is-centered">
+    <div className="column is-6 is-vcentered">
+       <p className="subtitle is-size-6"> <strong> A. Expert Evaluation - 4 UX Experts and 1 Accessibility Expert </strong> </p>
+       <img src={expert_final} alt="expert_final"/>
+        <p className="subtitle is-size-6">
+We recruited an accessibility and assistive technology expert with a visual impairment to understand how well our solution aligned with current accessibility conventions and preferences. 
+Additionally, we recruited NCR UX experts to evaluate the intuitiveness and aesthetics of our final prototype. 
+</p>
+
+  <p className="subtitle is-size-6">
+<li>If experts were sighted, wore glasses that simulated visual impairments  </li>
+<li>Worked through tasks and thought aloud</li>
+<li>Followed up with After Scenario Q after each task and SUS (System Usability Scale) at the end</li>
+        </p>
+            <br></br>
+    </div>
+    <div className="column is-6">
+      <p className="subtitle is-size-6"> <strong> B. Moderated Usability Testing - 5 Sighted NCR employees </strong></p>
+        <img src={anjali_finaltest} alt="anjali_finaltest"/>
+       <p className="subtitle is-size-6">
+
+We used NCR’s Usability Lab to conduct this session as they had a model kiosk we could use for the session. I facilitated the session with each user as my team collected performance metrics and took notes. This method allowed for us to get quantitative data but also probe deeper with follow up questions. 
+</p>
+<p className="subtitle is-size-6">
+
+<li> We recruited a mix of visually impaired users and sighted users wearing visual impairment glasses. </li>
+<li>Participants worked through the tasks but did not think aloud, as we wanted to collect task performance metrics such as time taken to complete task, number of clicks, task success. </li>
+ <li>After each task, I asked post-task questions (After Scenario Questionnaire) and administered a SUS questionnaire at the end. </li>
+
+
+
+
+      </p>
+      </div>
+  </div>
+    <br></br>
+
+  <div className="columns">
+  <div className="column is-3"> </div>
+  <div className="column is-6">
+      <img src={glasses} alt="team"/>
+       <br></br>
+         <p className="subtitle is-size-6"> <i> Visual Impairment simulator glasses that our sighted participants wore. </i></p>
+
+      </div>
+
+      <div className="column is-3"> </div>
+  </div>
+  <br></br>
+
+
+  <article className="message is-success">
+  <div className="message-body">
+            <p id="process" className="title is-size-6"> <font color="#47BO39"> Findings </font> </p>
+
+ <p className="subtitle is-size-6">
+
+<li>AR scanning feature, item recognition, and auditory feedback on the kiosk were overall well-received and thought to be helpful.  </li>
+<li>Pairing between phone and kiosk is a novel interaction. Users felt confused when they used the function for the first time, but they found it intriguing and easy to use after some familiarity.
+ </li>
+<li> Some users had trouble seeing some information and tapping the correct buttons.</li>
+<li>Users felt that the amount of auditory feedback during the pairing process could be increased as it would increase users’ confidence with their actions using the system.</li>
+</p>
+
+  </div>
+</article>
     
 
+  <br></br>
+    <br></br>
+    <p id="synthesis" className="title is-size-5 has-text-centered"> <font color="#47BO39"> Reflection</font> </p>
+    <br></br>
 
 
 
+
+    
+What I’d do differently:
+
+1. Conduct observations of visually-impaired individuals using kiosks
+2. Have more in-person testing sessions with visually impaired individuals (and focus on recruiting earlier)
+
+What I Learned:
+
+1. This process shattered any assumptions I had about visual impairments
+2. The importance of making sure any designs decision is grounded in research findings
+    1. We had to continuously rereference affinity map/findings in the design stage because we had trouble prioritizing features and we added some features without solid evidence showing they were very important for our users\ 
+3. Accessibility starts with a better information architecture, then can add on aesthetic elements 
+
+Challenging to start researching for accessibility but the benefits and personal learning opportunities are worth it 
+
+
+
+
+
+<div className="columns">
+  <div className="column is-2"> </div>
+  <div className="column is-8">
+    <img src={team} alt="team"/>
+       <br></br>
+         <p className="subtitle is-size-6 has-text-centered"> <i> Morgan, Anjali, Bob and Kaylin from NCR, and Yujin. Not pictured: Nektar. </i></p>
+
+      </div>
+
+      <div className="column is-2"> </div>
+  </div>
+  <br></br>
 
 
 
