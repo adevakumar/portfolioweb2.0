@@ -9,7 +9,7 @@ import kiosk_refresh from '../images/kiosk_refresh.png';
 import timeline from '../images/timeline.png';
 import mr_merchant from '../images/mr_merchant.png';
 import standing_one from '../images/standing_one.png';
-import blind_interview from '../images/blind_participant.jpg';
+import blind_participant from '../images/blind_participant.png';
 import affinity_map from '../images/affinity_map.png';
 import creativity_chart from '../images/creativity_chart.png';
 import narrowdown_interview from '../images/narrowdown_interview.png';
@@ -20,7 +20,7 @@ import idea_3_1 from '../images/idea_3_1.png';
 import idea_3_2 from '../images/idea_3_2.png';
 import iteration1_kiosk from '../images/iteration1_kiosk.png';
 import iteration1_phone from '../images/iteration1_phone.png';
-import session1_inperson from '../images/session1_inperson.jpg';
+import session1_inperson from '../images/session1_inperson.png';
 import session1_expert from '../images/session1_expert.png';
 import accessibility_1 from '../images/accessibility_1.png';
 import accessibility_2 from '../images/accessibility_2.png';
@@ -290,7 +290,7 @@ const NCRKioskBody = () => (
 	<div className="column is-1">
 	</div>
 	<div className="column is-5">
-		<img src={blind_interview} alt="blind_interview"/>
+		<img src={blind_participant} alt="blind_participant"/>
     <p className="subtitle is-7"> Our team conducting an interview with a blind user. I served as the interview moderator and my teammates took notes/artifacts.
 </p>
 	</div>
