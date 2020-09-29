@@ -96,7 +96,6 @@ items that benefit the overall product.</p>
 				<br></br>
 
 
-			<ScrollAnimation animateIn="fadeInDown">
 			<div class="container">
 				<div class="columns is-multiline">
 				   <div class="column is-2"></div>
@@ -180,7 +179,7 @@ items that benefit the overall product.</p>
 			     </Link>
    				 </div>
    				 <div class="column is-4">
-    			<Link to="/convoy/">
+    			<Link to="/proj5/">
 				      <div class="card">
 				        	<div class="card-image">
 							    <figure class="image is-centered">
@@ -216,7 +215,6 @@ items that benefit the overall product.</p>
 
 		
             
-				</ScrollAnimation>
 			</div>
 		</section>
 
