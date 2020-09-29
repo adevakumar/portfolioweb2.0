@@ -12,6 +12,7 @@ import dev from '../images/dev.png';
 import design from '../images/design.png';
 import walking from '../images/walking.png';
 import kiosk from '../images/kiosk.png';
+import chewy from '../images/chewy.jpg';
 
 
 import Box from './hover';
@@ -45,7 +46,7 @@ const Midsection = () => (
 							<strong> <p className="title is-size-4">Communication </p> </strong>
 						</ScrollAnimation>
 						<br></br>
-					    	<p>My experience as a Peer Mentor, Computer Science Ambassador, and TA gave me a strong foundation in public speaking and mentorship. Additionally, my interdisciplinary background allows me to relate to Engineers and Designers and consider their needs when making decisions. </p>
+					    	<p>My experience as a Graduate Teaching Assistant and Peer Mentor gave me a strong foundation in public speaking and mentorship, and working in these roles helps me communicate with fellow peers and stakeholders and be a good listener. </p>
 					  	
 					  </div>
 					  <div class="column">
@@ -69,10 +70,10 @@ items that benefit the overall product.</p>
 						</figure>
 						<ScrollAnimation animateIn="fadeInLeft">
 							<br></br>
-							<strong> <p className="title is-size-4">Front-End Development  </p> </strong>
+							<strong> <p className="title is-size-4"> Interdisciplinary Skills </p> </strong>
 						</ScrollAnimation>
 							<br></br>
-					    	<p> Using my Computer Science background, I can control and translate pixel-perfect visual designs into responsive and scalable websites and web apps.</p>
+					    	<p> My interdisciplinary background of Computer Science and Psychology allows me to relate to Engineers and Designers and consider their needs when making decisions. </p>
 					  	
 					  </div>
 					</div>
@@ -85,124 +86,141 @@ items that benefit the overall product.</p>
 
 				</div>
 	</section>
-
-		<section className="section">
+	<section className="section">
 			<br></br>
-			<div id="projects" className="container is-fluid">
-				<ScrollAnimation animateIn="fadeInDown">
+			<div id="projects" className="container">
+			<ScrollAnimation animateIn="fadeInDown">
 				<h1 className="title is-size-3 has-text-centered">Projects</h1>
+			</ScrollAnimation>
+				<br></br>
+				<br></br>
+
+
+			<ScrollAnimation animateIn="fadeInDown">
+			<div class="container">
+				<div class="columns is-multiline">
+				   <div class="column is-2"></div>
+				   <div class="column is-4">
+				    	<Link to="/ncrkiosk/">
+				      	<div class="card">
+				        	<div class="card-image">
+
+							    <figure class="image is-centered">
+							    	<img src={kiosk} alt="kiosk"/>
+							    </figure>
+						  	</div>
+						  	<div class="content">
+
+						  		<div class="hvr-underline-from-left">
+
+				    			<h2>NCR Kiosk Accessibility</h2>
+
+				    			</div>
+								<br></br>
+								<br></br>
+				
+						    		<p>Using community data to help women walking alone at night feel safer.</p>
+						    		<p className="heading is-size-6"><strong> <font color="#eb3f3b"> UX Research, Accessibility, UX Design </font></strong></p>
+
+				     		 </div>
+
+				      
+					 </div>
+		 
+			     	</Link>
+			     
+   			
+   					 </div>
+    			<div class="column is-4">
+    			<Link to="/convoy/">
+				      <div class="card">
+				      	
+				        	<div class="card-image">
+							    <figure class="image is-centerd">
+							    	<img src={chewy} alt="chewy"/>
+							    </figure>
+						 	</div>
+						  	<div class="content">
+						  		<div class="hvr-underline-from-left">
+
+				    			<h2>Chewy UX Research Internship</h2>
+
+
+						    	</div>
+						    	<br></br>
+								<br></br>
+						    	<p>Developing a process to conduct accessible research studies remotely.</p>
+						    	<p className="heading is-size-6"><strong> <font color="#eb3f3b"> UX Research, Accessibility </font> </strong></p>
+
+				      		</div>
+				      	</div>
+			     </Link>
+   				 </div>
+				<div class="column is-2"></div>
+				<div class="column is-2"></div>
+				<div class="column is-4">
+    			<Link to="/convoy/">
+				      <div class="card">
+				        	<div class="card-image">
+							    <figure class="image is-centered">
+							    	<img src={walking} alt="walking"/>
+							    </figure>
+						 	</div>
+						  	<div class="content">
+						  	<div class="hvr-underline-from-left">
+				    			<h2>Convoy - Mobile App and Wearable</h2>
+				    			</div>
+				    			<br></br>
+								<br></br>
+						    	<p>Using community data to help women walking alone at night feel safer.</p>
+						    	<p className="heading is-size-6"><strong> <font color="#eb3f3b"> UX Research, UX Design </font></strong></p>
+
+				      		</div>
+				</div>
+			     </Link>
+   				 </div>
+   				 <div class="column is-4">
+    			<Link to="/convoy/">
+				      <div class="card">
+				        	<div class="card-image">
+							    <figure class="image is-centered">
+							    	<img src={thesis} alt="thesis"/>
+							    </figure>
+						 	</div>
+						  	<div class="content">
+						  		<div class="hvr-underline-from-left">
+
+				    			<h2>Avoiding Deceptive Phishing</h2>
+				    			</div> 
+				    			<br></br>
+								<br></br>
+						    	 <p>Assisting people in avoiding and learning how to spot email phishing.</p>
+						    	 <p className="heading is-size-6"><strong> <font color="#eb3f3b"> UX Research, UX Design </font> </strong></p>
+
+				      		</div>
+				      	</div>
+			     </Link>
+   				 </div>
+
+  			</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+		
+            
 				</ScrollAnimation>
-				<ScrollAnimation animateIn="fadeInUp">
-						<br></br>
-						<br></br>
-						<div className="columns is-multiline">
-							<div className="column is-2 has-text-white">
-							<div>
-								&nbsp;
-							</div>
-							</div>		
-							
+			</div>
+		</section>
 
-							<div className="column is-4">
-								<Link to="/ncrkiosk/">
-								<Box className="box">
-
-
-									<div class="card">
-										<div class="card-image">
-									    <figure class="image is-centered">
-									    	<img src={kiosk} alt="kiosk"/>
-									    </figure>
-									</div>
-									<div class="content">
-							    		<h2>NCR Kiosk Accessibility</h2>
-									    <p className="heading is-size-7"><strong>UX Research, UX Design</strong></p>
-									    <p>Imagining a more accessible kiosk experience for visually impaired users.</p>
-							      	</div>
-						      	</div>
-						      	 
-						      </Box>
-						       </Link>
-
-							
-							</div>	
-
-							<div className="column is-4">
-							<Link to="/convoy/">
-								<Box className="box">
-								<div class="card">
-									<div class="card-image">
-								    <figure class="image is-centered">
-								    	<img src={walking} alt="walking"/>
-								    </figure>
-								  	</div>
-								<div class="content" id="help">
-						    		<h2>Convoy</h2>
-								    <p className="heading is-size-7"><strong>UX Research, UX Design</strong></p>
-								    <p>Using community data to help women walking alone at night feel safer.</p>
-						      </div>
-						      </div>
-						      </Box>
-			     			</Link>
-							
-							</div>
-
-							<div className="column is-2 has-text-white">
-							<div>
-								&nbsp;
-							</div>
-							</div>
-							<div className="column is-1 has-text-white">
-							<div>
-								&nbsp;
-							</div>
-							</div>	
-								
-							<div className="column is-5">
-							<Link to="/proj2/">
-								<Box className="box">
-								<div class="card">
-									<div class="card-image">
-								    <figure class="image is-centered">
-								    	<img src={thesis} alt="thesis"/>
-								    </figure>
-								  	</div>
-								<div class="content" id="help">
-						    		<h2>Avoiding Deceptive Phishing</h2>
-								    <p className="heading is-size-7"><strong>UX Research, UX Design</strong></p>
-								    <p>Assisting people in avoiding and learning how to spot email phishing scams.</p>
-						      </div>
-						      </div>
-						      </Box>
-			     			</Link>
-							</div>	
-
-							<div className="column is-5">
-							<Link to="/proj5/">
-								<Box className="box">
-									<div class="card">
-										<div class="card-image">
-									    <figure class="image is-centered">
-									    	<img src={mastree} alt="mastree"/>
-									    </figure>
-									</div>
-									<div class="content">
-							    		<h2>Mastree</h2>
-									    <p className="heading is-size-7"><strong>Graphic Design, UX Design</strong></p>
-									    <p>Helping people accomplish foundational skills and gain basic technical knowledge on a simple platform.</p>
-							      	</div>
-						      	</div>
-						      </Box>
-			     			</Link>
-					
-							</div>
-
-							<div className="column is-1 has-text-white">
-							<div>
-								&nbsp;
-							</div>
-							</div>
-							
+		
 					
 					
 
@@ -213,11 +231,6 @@ items that benefit the overall product.</p>
 					
 				
 
-				</div>
-				</ScrollAnimation>
-
-			</div>
-		</section>
 	</div>
 );
 

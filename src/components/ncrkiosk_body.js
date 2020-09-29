@@ -863,37 +863,32 @@ We used NCR’s Usability Lab to conduct this session as they had a model kiosk 
 
 
 
+<p className="subtitle is-size-6"> 
+I came out of this process learning so much about accessibility, industry UX Research, and collaboration with industry stakeholders. </p>
 
-    
-What I’d do differently:
-
-1. Conduct observations of visually-impaired individuals using kiosks
-2. Have more in-person testing sessions with visually impaired individuals (and focus on recruiting earlier)
-
-What I Learned:
-
-1. This process shattered any assumptions I had about visual impairments
-2. The importance of making sure any designs decision is grounded in research findings
-    1. We had to continuously rereference affinity map/findings in the design stage because we had trouble prioritizing features and we added some features without solid evidence showing they were very important for our users\ 
-3. Accessibility starts with a better information architecture, then can add on aesthetic elements 
-
-Challenging to start researching for accessibility but the benefits and personal learning opportunities are worth it 
-
-
-
-
-
+<p className="subtitle is-size-6"> 
+<li>1. This process shattered any assumptions I had about visual impairments and taught me that it can be challenging to start researching for accessibility; however,  the benefits and personal learning opportunities are worth it. </li>
+<li>2. I learned the importance of ensuring designs decision are grounded in research findings. We had to continuously rereference affinity map/findings in the design stage because we had trouble prioritizing features and we added some features without solid evidence showing they were very important for our users. </li>
+<li>3. Accessibility ultimately starts with a cleaner information architecture. </li>
+</p>
+<p className="subtitle is-size-6"> 
+If I had more time, I would conduct observation sessions of visually-impaired individuals using kiosks to understand their process and observe any pain-points in real time. 
+I would also have more in-person testing sessions with visually impaired individuals (and focus on recruiting earlier).
+</p>
+  <br></br>
+    <br></br>
 <div className="columns">
   <div className="column is-2"> </div>
   <div className="column is-8">
     <img src={team} alt="team"/>
        <br></br>
-         <p className="subtitle is-size-6 has-text-centered"> <i> Morgan, Anjali, Bob and Kaylin from NCR, and Yujin. Not pictured: Nektar. </i></p>
+         <p className="subtitle is-size-6 has-text-centered"> <i> Morgan, Anjali, Bob and Kaylin from NCR (our mentors), and Yujin. Not pictured: Nektar. </i></p>
+   </div>
 
+      <div className="column is-2"> 
       </div>
+</div>
 
-      <div className="column is-2"> </div>
-  </div>
   <br></br>
 
 

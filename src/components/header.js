@@ -41,7 +41,7 @@ Currently looking for <strong> <font color="#eb3f3b"> UX Research </font> Full T
 
 				  <span>
 
-				<a href="https://drive.google.com/file/d/1HG4lqPSG15EkuDVKfd2gpoH_ZjapjYbu/view?usp=sharing" target="_blank" className="button is-outlined is-danger">View My Resume</a>
+				<a href="https://drive.google.com/file/d/1V4qbi4v9w-IvxzyHnWDPPsPRzsFUsSvD/view?usp=sharing" target="_blank" className="button is-outlined is-danger">View My Resume</a>
 				</span> 
 								  	<br></br>
 								  	<br></br>

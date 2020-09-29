@@ -43,7 +43,7 @@ export default class Navbar extends React.Component {
         <div
           className={`navbar-menu ${this.state.activeMenu ? 'is-active' : ''}`}
         >
-          <div className="navbar-end is-black">
+          <div id="navbarMenuHeroA" className="navbar-end">
             <NavbarItem page="/#skills" pagename="skills" />
             <NavbarItem page="/#projects" pagename="projects" />
             <NavbarItem page="/about/" pagename=" about" />
