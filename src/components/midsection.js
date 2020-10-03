@@ -148,7 +148,7 @@ items that benefit the overall product.</p>
 						    	</div>
 						    	<br></br>
 								<br></br>
-						    	<p>Developing a process to conduct accessible research studies remotely.</p>
+						    	<p>Developing a process to conduct accessible research studies remotely. Coming Soon!</p>
 						    	<p className="heading is-size-6"><strong> <font color="#eb3f3b"> UX Research, Accessibility </font> </strong></p>
 
 				      		</div>
@@ -179,7 +179,7 @@ items that benefit the overall product.</p>
 			     </Link>
    				 </div>
    				 <div class="column is-4">
-    			<Link to="/proj5/">
+    			<Link to="/proj2/">
 				      <div class="card">
 				        	<div class="card-image">
 							    <figure class="image is-centered">
