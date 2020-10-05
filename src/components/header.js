@@ -29,7 +29,7 @@ const Header = ({ siteTitle }) => (
 				  <div className="column is-6">
 				  
 				  <ScrollAnimation animateIn="fadeInLeft">
-				  <h1> <strong>  Hi, I'm Anjali!  </strong> </h1>
+				  <h1 id="heading_text"> <strong>  Hi, I'm Anjali!  </strong> </h1>
 				   <br></br>
 				      <br></br>
 				  </ScrollAnimation>

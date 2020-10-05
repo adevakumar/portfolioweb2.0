@@ -131,7 +131,7 @@ items that benefit the overall product.</p>
    			
    					 </div>
     			<div class="column is-4">
-    			<Link to="/convoy/">
+    			<Link to="/">
 				      <div class="card">
 				      	
 				        	<div class="card-image">
