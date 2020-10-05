@@ -6,6 +6,4 @@
 
 // You can delete this file if you're not using it
 require('typeface-karla');
-require('typeface-spectral');
-require('typeface-volkhov');
-
+require('typeface-rubik')

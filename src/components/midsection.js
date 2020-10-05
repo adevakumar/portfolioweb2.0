@@ -112,13 +112,13 @@ items that benefit the overall product.</p>
 
 						  		<div class="hvr-underline-from-left">
 
-				    			<h2>NCR Kiosk Accessibility</h2>
+				    			<h2>Accessible Self-Checkout NCR Kiosk</h2>
 
 				    			</div>
 								<br></br>
 								<br></br>
 				
-						    		<p>Using community data to help women walking alone at night feel safer.</p>
+						    		<p>Imagining a more accessible kiosk experience for visually impaired users. Sponsored by NCR.</p>
 						    		<p className="heading is-size-6"><strong> <font color="#eb3f3b"> UX Research, Accessibility, UX Design </font></strong></p>
 
 				     		 </div>

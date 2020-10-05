@@ -34,14 +34,14 @@ const Header = ({ siteTitle }) => (
 				      <br></br>
 				  </ScrollAnimation>
 					<div className="subtitle is-5"> I am a 2nd-year Georgia Tech Master's student, Teaching Assistant & Research
-Assistant specializing in Human-Computer Interaction. With my background in Computer Science & Psychology, I aim to research and inform inclusive and effective designs that universally help people.</div>	
+Assistant specializing in Human-Computer Interaction. With my background in Computer Science & Psychology, I research and inform inclusive and effective designs that universally help people.</div>	
 
 	<div className="subtitle is-5"> 
 Currently looking for <strong> <font color="#eb3f3b"> UX Research </font> Full Time roles</strong>!</div>
 
 				  <span>
 
-				<a href="https://drive.google.com/file/d/1V4qbi4v9w-IvxzyHnWDPPsPRzsFUsSvD/view?usp=sharing" target="_blank" className="button is-outlined is-danger">View My Resume</a>
+				<a href="https://drive.google.com/file/d/1tPdUPFHFWSCxDoCDXOAGD7-AL971yVQR/view?usp=sharing" target="_blank" className="button is-outlined is-danger">View My Resume</a>
 				</span> 
 								  	<br></br>
 								  	<br></br>
