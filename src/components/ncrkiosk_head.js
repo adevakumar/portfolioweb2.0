@@ -8,6 +8,7 @@ import "animate.css/animate.min.css";*/
 import kiosk from '../images/kiosk.jpg';
 
 const NCRKioskHead = () => (
+
 <section className="hero is-light is-fullheight">
 	
   <div className="hero-body">
