@@ -45,7 +45,19 @@ const NCRKioskBody = () => (
 	<br></br>
   <div id="here" className="columns">
       <div className="column is-1">
-        
+        <div className="menu_sticky">  
+          <h3 className="heading"><strong><font color="#F5F5F5"> __</font></strong></h3>
+          <h3 className="heading"><strong><font color="#F5F5F5"> __</font>Navigation</strong></h3>
+          <ul id="menu" className="menu-list">
+             <li><a href="#overview"><strong>Overview</strong></a></li>
+             <li><a href="#gen_research"><strong>Generative Research</strong></a></li>
+            <li><a href="#design"><strong>Design Process</strong></a></li>
+            <li><a href="#evaluative_research"><strong>Evaluative Research</strong></a></li>
+            <li><a href="#reflections"><strong>Reflection</strong></a></li>
+            
+          </ul>
+          <br></br>
+        </div>
       </div>
        <div className="column is-1"> </div>
 		<div className="column is-9">
@@ -420,9 +432,9 @@ Below are the major pain points experienced by the users that were prioritized f
     <br></br>
         <br></br>
 
-    <h3 id="gen_research" className= "title is-size-4"> 
+    <h3 id="design" className= "title is-size-4"> 
   <font color="#47BO39">
-  Design </font></h3>
+  Design Process </font></h3>
     <br></br>
     <br></br>
 
@@ -608,7 +620,12 @@ Our designers created multiple iterations, and tested our idea with our users an
               <div className="column is-1"></div>
             </div>
 
+<br></br>
+     <br></br>
 
+  <h3 id="evaluative_research" className= "title is-size-4"> 
+  <font color="#47BO39">
+  Evaluative Research </font></h3>
     <br></br>
          <p id="synthesis" className="title is-size-5 has-text-centered"> <font color="#47BO39"> User Testing - Low Fidelity </font> </p>
 <br></br>
@@ -858,7 +875,7 @@ We used NCR’s Usability Lab to conduct this session as they had a model kiosk 
 
   <br></br>
     <br></br>
-    <p id="synthesis" className="title is-size-5 has-text-centered"> <font color="#47BO39"> Reflection</font> </p>
+    <p id="reflections" className="title is-size-4 has-text-centered"> <font color="#47BO39"> Reflection</font> </p>
     <br></br>
 
 

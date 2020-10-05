@@ -31,46 +31,36 @@ import no_design_response from '../images/no_design_response.png';
 
 
 const Proj2Body = () => (
-    <div className="container is-fullwidth">
+    <div className="container is-fluid">
     <br></br>
 
   <br></br>
 	<br></br>
   <div id="here" className="columns">
-      <div className="column is-2">
+      <div className="column is-1">
         <div className="menu_sticky">  
           <h3 className="heading"><strong><font color="#F5F5F5"> __</font></strong></h3>
           <h3 className="heading"><strong><font color="#F5F5F5"> __</font>Navigation</strong></h3>
           <ul id="menu" className="menu-list">
-             <li><a href="#overview"><strong>1. Overview</strong></a></li>
-            <li><a href="#problem"><font color="#F5F5F5">___</font>Problem</a></li>
-            <li><a href="#solution"><font color="#F5F5F5">___</font>Solution</a></li>
-            <li><a href="#details"><font color="#F5F5F5">___</font>Details</a></li>
-            <li><a href="#process"><font color="#F5F5F5">___</font>Process</a></li>
-
-
-             <li><a href="#research"><strong>2. Research</strong></a></li>
-            <li><a href="#lit_review"><font color="#F5F5F5">___</font>Literature Review</a></li>
-            <li><a href="#understanding_users"><font color="#F5F5F5">___</font>Understanding User Abilities</a></li>
-
-            <li><a href="#design"><strong>3. Design</strong></a></li>
-        <li><a href="#design_goals"><font color="#F5F5F5">___</font>Design Goals</a></li>
-            <li><a href="#design_flowchart"><font color="#F5F5F5">___</font>Design Flowchart</a></li>
-            <li><a href="#low_fi"><font color="#F5F5F5">___</font>Low Fidelity Prototype</a></li>
-            <li><a href="#high_fi"><font color="#F5F5F5">___</font>High Fidelity Design</a></li>
+             <li><a href="#overview"><strong>Overview</strong></a></li>
             
-            <li><a href="#evaluation"><strong>4. Evaluation</strong></a></li>
-            <li><a href="#usability_exp"><font color="#F5F5F5">___</font>Usability Experiment</a></li>
-            <li><a href="#measure_suc"><font color="#F5F5F5">___</font>Measuring Success</a></li>
-            <li><a href="#exp_results"><font color="#F5F5F5">___</font>Experiment Results</a></li>
-            <li><a href="#post_survey"><font color="#F5F5F5">___</font>Post Experiment Survey</a></li>
-            <li><a href="#feedback"><font color="#F5F5F5">___</font>Design Feedback and Suggestions </a></li>
-            <li><a href="#reflections"><font color="#F5F5F5">___</font>Reflections</a></li>
+
+
+             <li><a href="#research"><strong>Research</strong></a></li>
+            
+
+            <li><a href="#design"><strong>Design</strong></a></li>
+        
+            
+            <li><a href="#evaluation"><strong>Evaluation</strong></a></li>
+            <li><a href="#reflections"><strong>Reflection</strong></a></li>
+            
           </ul>
           <br></br>
         </div>
       </div>
-<div className="column is-10">
+       <div className="column is-1"> </div>
+<div className="column is-9">
   <h3 id="overview" className= "title is-size-4"> 
   <font color="#F9C77B">
   Overview 
@@ -744,3 +734,25 @@ and what varies based on the interface. </p>
 
 );
 export default Proj2Body;
+
+/* This is
+a comment 
+
+<li><a href="#problem">Problem</a></li>
+            <li><a href="#solution">Solution</a></li>
+            <li><a href="#details">Details</a></li>
+            <li><a href="#process">Process</a></li>
+<li><a href="#lit_review">Literature Review</a></li>
+            <li><a href="#understanding_users">Understanding User Abilities</a></li>
+            <li><a href="#design_goals">Design Goals</a></li>
+            <li><a href="#design_flowchart">Design Flowchart</a></li>
+            <li><a href="#low_fi">Low Fidelity Prototype</a></li>
+            <li><a href="#high_fi"><font color="#F5F5F5">___</font>High Fidelity Design</a></li>
+<li><a href="#measure_suc">Measuring Success</a></li>
+            <li><a href="#exp_results">Experiment Results</a></li>
+            <li><a href="#post_survey">Post Experiment Survey</a></li>
+            <li><a href="#feedback">Design Feedback and Suggestions </a></li>
+                        <li><a href="#usability_exp"><font color="#F5F5F5">___</font>Usability Experiment</a></li>
+
+            <li><a href="#reflections">Reflection</a></li>
+*/

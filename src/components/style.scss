@@ -102,9 +102,17 @@ p::before {
   position: -webkit-sticky;
   position: sticky;
   top: 9%;
-  background-color:#F5F5F5;
-	max-height: calc(100vh - 5rem);
-	overflow-y: auto;
+  background-color:#white;
+	max-height: calc(100vh - 7rem);
+	overflow-y: visible;
+	overflow-x: visible;
+}
+
+#menu {
+	 margin: 0;
+   	 padding: 0.1em;
+  font-size: 80%;
+
 }
 
 
