@@ -15,6 +15,7 @@ import kiosk from '../images/kiosk.png';
 import chewy from '../images/chewy.jpg';
 
 
+
 import Box from './hover';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
