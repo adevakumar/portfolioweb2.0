@@ -12,7 +12,8 @@ import dev from '../images/dev.png';
 import design from '../images/design.png';
 import walking from '../images/walking.png';
 import kiosk from '../images/kiosk.png';
-import chewy from '../images/chewy.jpg';
+import chewy from '../images/chewy.png';
+import intune from '../images/intune.png';
 
 
 
@@ -91,11 +92,10 @@ items that benefit the overall product.</p>
 			<br></br>
 			<div id="projects" className="container">
 			<ScrollAnimation animateIn="fadeInDown">
-				<h1 className="title is-size-3 has-text-centered">Projects</h1>
+				<h1 className="title is-size-3 has-text-centered">Selected Work</h1>
 			</ScrollAnimation>
 				<br></br>
 				<br></br>
-
 
 			<div class="container">
 				<div class="columns is-multiline">
@@ -104,29 +104,21 @@ items that benefit the overall product.</p>
 				    	<Link to="/ncrkiosk/">
 				      	<div class="card">
 				        	<div class="card-image">
-
 							    <figure class="image is-centered">
-							    	<img src={kiosk} alt="kiosk"/>
+							    	<img src={intune} alt="intune"/>
 							    </figure>
 						  	</div>
 						  	<div class="content">
-
-						  		<div class="hvr-underline-from-left">
-
-				    			<h2>Accessible Self-Checkout NCR Kiosk</h2>
-
-				    			</div>
-								<br></br>
-								<br></br>
-				
-						    		<p>Imagining a more accessible kiosk experience for visually impaired users. Sponsored by NCR.</p>
-						    		<p className="heading is-size-6"><strong> <font color="#eb3f3b"> UX Research, Accessibility, UX Design </font></strong></p>
+				    			<div class="hvr-underline-from-left"> 
+				    			<h3>In Tune - Master's Project</h3>
+				    				</div>	
+				    				<br></br>
+						   <p className="text is-size-6"><strong> Coming Soon! </strong>  An iPad app for piano teachers and students in online synchronous piano lessons.</p>
+						    		
+						    		<p className="heading is-size-7"><strong> <font color="#eb3f3b"> UX Research, UX Design </font></strong></p>
 
 				     		 </div>
-
-				      
-					 </div>
-		 
+					 	</div>
 			     	</Link>
 			     
    			
@@ -134,31 +126,48 @@ items that benefit the overall product.</p>
     			<div class="column is-4">
     			<Link to="/">
 				      <div class="card">
-				      	
 				        	<div class="card-image">
 							    <figure class="image is-centerd">
 							    	<img src={chewy} alt="chewy"/>
 							    </figure>
 						 	</div>
 						  	<div class="content">
-						  		<div class="hvr-underline-from-left">
+				    			<div class="hvr-underline-from-left"> 
+				    			<h3>Chewy UX Research Internship</h3>
+				    				</div>	
+				    				<br></br>
+						   <p className="text is-size-6"><strong> Coming Soon! </strong> Developing a process to conduct accessible research studies remotely. </p>
+						    		
+						    		<p className="heading is-size-7"><strong> <font color="#eb3f3b"> UX Research, Accessibility </font></strong></p>
 
-				    			<h2>Chewy UX Research Internship</h2>
-
-
-						    	</div>
-						    	<br></br>
-								<br></br>
-						    	<p>Developing a process to conduct accessible research studies remotely. Coming Soon!</p>
-						    	<p className="heading is-size-6"><strong> <font color="#eb3f3b"> UX Research, Accessibility </font> </strong></p>
-
-				      		</div>
-				      	</div>
+				     		 </div>
+					 	</div>
 			     </Link>
    				 </div>
 				<div class="column is-2"></div>
 				<div class="column is-2"></div>
 				<div class="column is-4">
+    			<Link to="/ncrkiosk/">
+				      	<div class="card">
+				        	<div class="card-image">
+							    <figure class="image is-centered">
+							    	<img src={kiosk} alt="kiosk"/>
+							    </figure>
+						  	</div>
+						  	<div class="content">
+				    			<div class="hvr-underline-from-left"> 
+				    			<h3>Accessible Self-Checkout NCR Kiosk</h3>
+				    				</div>	
+				    				<br></br>
+						   <p className="text is-size-6">Imagining a more accessible kiosk experience for visually impaired users. Sponsored by NCR.</p>
+						    		
+						    		<p className="heading is-size-7"><strong> <font color="#eb3f3b"> UX Research, Accessibility, UX Design </font></strong></p>
+
+				     		 </div>
+					 	</div>
+			     	</Link>
+   				 </div>
+   				 <div class="column is-4">
     			<Link to="/convoy/">
 				      <div class="card">
 				        	<div class="card-image">
@@ -167,38 +176,16 @@ items that benefit the overall product.</p>
 							    </figure>
 						 	</div>
 						  	<div class="content">
-						  	<div class="hvr-underline-from-left">
-				    			<h2>Convoy - Mobile App and Wearable</h2>
-				    			</div>
-				    			<br></br>
-								<br></br>
-						    	<p>Using community data to help women walking alone at night feel safer.</p>
-						    	<p className="heading is-size-6"><strong> <font color="#eb3f3b"> UX Research, UX Design </font></strong></p>
+							<div class="hvr-underline-from-left"> 
+							<h3>Convoy - Mobile App and Wearable</h3>
+							</div>	
+							<br></br>
+								<p className="text is-size-6">Using community data to help women walking alone at night feel safer.</p>
+						    		
+						    	<p className="heading is-size-7"><strong> <font color="#eb3f3b"> UX Research, UX Design </font></strong></p>
 
-				      		</div>
-				</div>
-			     </Link>
-   				 </div>
-   				 <div class="column is-4">
-    			<Link to="/proj2/">
-				      <div class="card">
-				        	<div class="card-image">
-							    <figure class="image is-centered">
-							    	<img src={thesis} alt="thesis"/>
-							    </figure>
-						 	</div>
-						  	<div class="content">
-						  		<div class="hvr-underline-from-left">
-
-				    			<h2>Avoiding Deceptive Phishing</h2>
-				    			</div> 
-				    			<br></br>
-								<br></br>
-						    	 <p>Assisting people in avoiding and learning how to spot email phishing.</p>
-						    	 <p className="heading is-size-6"><strong> <font color="#eb3f3b"> UX Research, UX Design </font> </strong></p>
-
-				      		</div>
-				      	</div>
+							</div>
+						</div>
 			     </Link>
    				 </div>
 
@@ -206,22 +193,17 @@ items that benefit the overall product.</p>
 
 
 </div>
-
-
-
-
-
-
-
-
-		
-            
 			</div>
 		</section>
 
-		
-					
-					
+			<br></br>
+			<div id="projects" className="container">
+			<ScrollAnimation animateIn="fadeInDown">
+				<h1 className="title is-size-3 has-text-centered">Other Work</h1>
+			</ScrollAnimation>
+				<br></br>
+				<br></br>		
+		</div>					
 
 							
 					

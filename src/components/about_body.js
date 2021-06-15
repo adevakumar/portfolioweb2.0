@@ -45,7 +45,7 @@ const AboutBody = () => (
 	      	</h1>
 	      <br></br>
 	      	<h2 className="subtitle">
-	       	I am currently a first year Master’s student at Georgia Tech where I am pursuing Human-Computer Interaction. Scroll down to learn more about my journey and interests!
+	       	I am recent graduate of Georgia Tech's MS Human-Computer Interaction program, and now I'm a UX Researcher at Chewy. Scroll down to learn more about my journey and interests!
 	      </h2>
 		  </div>
 		  </ScrollAnimation>
@@ -102,11 +102,15 @@ const AboutBody = () => (
 I have learned classical piano since was in middle school, but since I could not bring my piano to college, I started playing the ukelele (badly). I have previously worked at a music festival and I frequently attend concerts as I love the surreal and creative energy of being in a space of people who also appreciate and love live music, and I am extremely excited to explore Atlanta’s music scene! I love learning about and exploring diverse music genres and reorganizing my Spotify playlists in my free time.  	 
 </p>
 
-<br></br>
+<p className="subtitle">  
+What I listen to and love is constantly changing, so here's my On Repeat playlist to show you what's currently on rotation for me!</p>
+<iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1Eph0VUmkYYgSK" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe><br></br>
+  <br></br>
     <p className="heading is-size-5"> Traveling 
     
 </p>
   <br></br>
+
 
 <p className="subtitle">  
 I grew up in the Bay Area for 18 years before taking the plunge to move to Massachusetts for college. Since then, my family has moved to a suburb of Dallas, TX. Being exposed to different regional demographics, attitudes, and customs attunes me to a spectrum of lifestyles and thinking, and I am more eager to share ideas and learn about different backgrounds in graduate school. </p>

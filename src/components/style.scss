@@ -182,7 +182,7 @@ a {
 
 .hvr-underline-from-left {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: upper;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -196,10 +196,11 @@ a {
   position: absolute;
   z-index: -1;
   left: 0;
+	top:85%;
   right: 100%;
   bottom: 0;
   background: #eb3f3b;
-  height: 5px;
+  height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
   -webkit-transition-duration: 0.3s;

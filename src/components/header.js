@@ -38,16 +38,16 @@ const Header = ({ siteTitle }) => (
 </ScrollAnimation>
 	  <div className="columns is-mobile is-centered">
   <div className="column is-three-quarters">
-    <div className="subtitle is-5"> 
+    <div className="subtitle is-6"> 
 		I'm a recent graduate of Georgia Tech's Human-Computer Interaction Master's program. With my background in Computer Science & Psychology, I employ mixed-methods research to inform inclusive and effective designs that help people.
+		  <br></br> 
+		    <br></br> 
+		Currently a UX Researcher at <a href="https://www.chewy.com/"> Chewy 🐾 </a>
+
 		</div>	
   </div>
 </div>
 	  
-		<div className="subtitle is-5"> 
-		Currently a UX Researcher at <a href="https://www.chewy.com/"> Chewy</a>
-		</div>
-
 		<span>
 		<a href="https://drive.google.com/file/d/1tPdUPFHFWSCxDoCDXOAGD7-AL971yVQR/view?usp=sharing" target="_blank" className="button is-outlined is-danger">View My Resume</a>
 		</span> 
