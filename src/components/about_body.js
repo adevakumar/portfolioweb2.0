@@ -104,11 +104,12 @@ I have learned classical piano since was in middle school, but since I could not
 
 <p className="subtitle">  
 What I listen to and love is constantly changing, so here's my On Repeat playlist to show you what's currently on rotation for me!</p>
-<iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1Eph0VUmkYYgSK" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe><br></br>
-  <br></br>
-    <p className="heading is-size-5"> Traveling 
-    
-</p>
+
+<iframe title="This is a unique title" />
+
+
+<iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> 
+
   <br></br>
 
 
